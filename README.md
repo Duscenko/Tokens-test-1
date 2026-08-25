@@ -4,8 +4,8 @@
 
 ## Overview
 
-- **Primary color:** `#eaaa08`
-- **Themes:** Light, Dark, Blue-dark
+- **Primary color:** `#f63d68`
+- **Themes:** Light, Dark, Blue-dark, Pink
 - **Semantic architecture:** Categorical Semantic
 - **Panel background:** Solid
 - **Heading font:** Inter
@@ -22,114 +22,114 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-accent-1` | `#fefdfc` |
-| `--color-accent-2` | `#fbf7f0` |
-| `--color-accent-3` | `#f9f1e3` |
-| `--color-accent-4` | `#f7ead3` |
-| `--color-accent-5` | `#f5e2c0` |
-| `--color-accent-6` | `#f3d6a5` |
-| `--color-accent-7` | `#f0ca88` |
-| `--color-accent-8` | `#eebd62` |
-| `--color-accent-9` | `#eaaa08` |
-| `--color-accent-10` | `#d49e30` |
-| `--color-accent-11` | `#8e6300` |
-| `--color-accent-12` | `#473102` |
+| `--color-accent-1` | `#fffdfd` |
+| `--color-accent-2` | `#fef1f2` |
+| `--color-accent-3` | `#fee4e6` |
+| `--color-accent-4` | `#fed5d8` |
+| `--color-accent-5` | `#ffc4c9` |
+| `--color-accent-6` | `#ffacb4` |
+| `--color-accent-7` | `#fe929f` |
+| `--color-accent-8` | `#fb7287` |
+| `--color-accent-9` | `#f63d68` |
+| `--color-accent-10` | `#d94261` |
+| `--color-accent-11` | `#b93e56` |
+| `--color-accent-12` | `#5f1f2b` |
 
 ### Primitive Scale — Neutral
 
 | Token | Value |
 |-------|-------|
-| `--color-neutral-1` | `#fefdfc` |
-| `--color-neutral-2` | `#f2f2f1` |
-| `--color-neutral-3` | `#e8e7e5` |
-| `--color-neutral-4` | `#dcdbd8` |
-| `--color-neutral-5` | `#cfcdc9` |
-| `--color-neutral-6` | `#bdbab4` |
-| `--color-neutral-7` | `#aca8a0` |
-| `--color-neutral-8` | `#989389` |
-| `--color-neutral-9` | `#7f796c` |
-| `--color-neutral-10` | `#716c61` |
-| `--color-neutral-11` | `#706b62` |
-| `--color-neutral-12` | `#383531` |
+| `--color-neutral-1` | `#fffdfd` |
+| `--color-neutral-2` | `#f3f1f1` |
+| `--color-neutral-3` | `#e8e5e6` |
+| `--color-neutral-4` | `#dcd7d8` |
+| `--color-neutral-5` | `#cfc8ca` |
+| `--color-neutral-6` | `#bdb4b6` |
+| `--color-neutral-7` | `#ac9fa2` |
+| `--color-neutral-8` | `#98898c` |
+| `--color-neutral-9` | `#7f6c70` |
+| `--color-neutral-10` | `#706063` |
+| `--color-neutral-11` | `#76696c` |
+| `--color-neutral-12` | `#3b3335` |
 
 ### Primitive Scale — Error
 
 | Token | Value |
 |-------|-------|
-| `--color-error-1` | `#fefdfc` |
-| `--color-error-2` | `#fcf1ef` |
-| `--color-error-3` | `#fae5e1` |
-| `--color-error-4` | `#f9d7d1` |
-| `--color-error-5` | `#f7c7bf` |
-| `--color-error-6` | `#f5b0a6` |
-| `--color-error-7` | `#f2998c` |
-| `--color-error-8` | `#ee7d6e` |
-| `--color-error-9` | `#e65345` |
-| `--color-error-10` | `#cb5144` |
-| `--color-error-11` | `#af4b40` |
-| `--color-error-12` | `#59261f` |
+| `--color-error-1` | `#fffdfd` |
+| `--color-error-2` | `#fdf1ef` |
+| `--color-error-3` | `#fde4e0` |
+| `--color-error-4` | `#fdd5cf` |
+| `--color-error-5` | `#fdc5bc` |
+| `--color-error-6` | `#fcada1` |
+| `--color-error-7` | `#fb9385` |
+| `--color-error-8` | `#f87465` |
+| `--color-error-9` | `#f24135` |
+| `--color-error-10` | `#d54538` |
+| `--color-error-11` | `#b94237` |
+| `--color-error-12` | `#5e221b` |
 
 ### Primitive Scale — Warning
 
 | Token | Value |
 |-------|-------|
-| `--color-warning-1` | `#fefdfc` |
-| `--color-warning-2` | `#fcf5f0` |
-| `--color-warning-3` | `#fbede2` |
-| `--color-warning-4` | `#fbe4d2` |
-| `--color-warning-5` | `#fadabf` |
-| `--color-warning-6` | `#f9cba4` |
-| `--color-warning-7` | `#f8bc87` |
-| `--color-warning-8` | `#f7aa63` |
-| `--color-warning-9` | `#f5911c` |
-| `--color-warning-10` | `#dc8833` |
-| `--color-warning-11` | `#9d5b0d` |
-| `--color-warning-12` | `#502d09` |
+| `--color-warning-1` | `#fffdfd` |
+| `--color-warning-2` | `#fdf5f0` |
+| `--color-warning-3` | `#fdede2` |
+| `--color-warning-4` | `#fee3d1` |
+| `--color-warning-5` | `#fed9be` |
+| `--color-warning-6` | `#ffc9a2` |
+| `--color-warning-7` | `#ffb984` |
+| `--color-warning-8` | `#ffa55e` |
+| `--color-warning-9` | `#ff8a00` |
+| `--color-warning-10` | `#e4832b` |
+| `--color-warning-11` | `#a45700` |
+| `--color-warning-12` | `#542b06` |
 
 ### Primitive Scale — Success
 
 | Token | Value |
 |-------|-------|
-| `--color-success-1` | `#fefdfc` |
-| `--color-success-2` | `#f0f7f2` |
-| `--color-success-3` | `#e2f1e6` |
-| `--color-success-4` | `#d2ead9` |
-| `--color-success-5` | `#bfe2cb` |
-| `--color-success-6` | `#a5d8b6` |
-| `--color-success-7` | `#88cea1` |
-| `--color-success-8` | `#64c28a` |
-| `--color-success-9` | `#17b26a` |
-| `--color-success-10` | `#2ea064` |
-| `--color-success-11` | `#1c7a4a` |
-| `--color-success-12` | `#0f3d24` |
+| `--color-success-1` | `#fffdfd` |
+| `--color-success-2` | `#f0f8f2` |
+| `--color-success-3` | `#e2f2e6` |
+| `--color-success-4` | `#d2ebd8` |
+| `--color-success-5` | `#bfe4c8` |
+| `--color-success-6` | `#a4dab3` |
+| `--color-success-7` | `#87d19d` |
+| `--color-success-8` | `#61c583` |
+| `--color-success-9` | `#00b660` |
+| `--color-success-10` | `#29a45c` |
+| `--color-success-11` | `#137b42` |
+| `--color-success-12` | `#0c3e21` |
 
 ### Primitive Scale — Info
 
 | Token | Value |
 |-------|-------|
-| `--color-info-1` | `#fefdfc` |
-| `--color-info-2` | `#eff5fc` |
-| `--color-info-3` | `#e1ecfa` |
-| `--color-info-4` | `#d1e3f9` |
-| `--color-info-5` | `#bfd8f8` |
-| `--color-info-6` | `#a5caf7` |
-| `--color-info-7` | `#8abbf6` |
-| `--color-info-8` | `#69a9f5` |
-| `--color-info-9` | `#3891f4` |
-| `--color-info-10` | `#3c84d6` |
-| `--color-info-11` | `#336db0` |
-| `--color-info-12` | `#193659` |
+| `--color-info-1` | `#fffdfd` |
+| `--color-info-2` | `#eff5fd` |
+| `--color-info-3` | `#e0edfc` |
+| `--color-info-4` | `#cee3fc` |
+| `--color-info-5` | `#bbd9fc` |
+| `--color-info-6` | `#9ecafd` |
+| `--color-info-7` | `#81bafe` |
+| `--color-info-8` | `#5ca8fe` |
+| `--color-info-9` | `#148fff` |
+| `--color-info-10` | `#2782df` |
+| `--color-info-11` | `#246db8` |
+| `--color-info-12` | `#12365e` |
 
 ### Custom — Blue Dark
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-dark-1` | `#fefdfc` |
-| `--color-blue-dark-2` | `#edf3fd` |
-| `--color-blue-dark-3` | `#dde8fc` |
+| `--color-blue-dark-1` | `#fffdfd` |
+| `--color-blue-dark-2` | `#eef3fd` |
+| `--color-blue-dark-3` | `#dee9fc` |
 | `--color-blue-dark-4` | `#cbddfc` |
-| `--color-blue-dark-5` | `#b6cffc` |
-| `--color-blue-dark-6` | `#99bdfd` |
+| `--color-blue-dark-5` | `#b7d0fd` |
+| `--color-blue-dark-6` | `#9abdfd` |
 | `--color-blue-dark-7` | `#7ca9fe` |
 | `--color-blue-dark-8` | `#5a92ff` |
 | `--color-blue-dark-9` | `#2970ff` |
@@ -141,8 +141,8 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-dark-gray-1` | `#fefdfc` |
-| `--color-blue-dark-gray-2` | `#f1f1f2` |
+| `--color-blue-dark-gray-1` | `#fffdfd` |
+| `--color-blue-dark-gray-2` | `#f1f2f3` |
 | `--color-blue-dark-gray-3` | `#e5e6e8` |
 | `--color-blue-dark-gray-4` | `#d7d9dc` |
 | `--color-blue-dark-gray-5` | `#c8cacf` |
@@ -158,80 +158,233 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-dark-error-1` | `#fefdfc` |
-| `--color-blue-dark-error-2` | `#fdf0ee` |
+| `--color-blue-dark-error-1` | `#fffdfd` |
+| `--color-blue-dark-error-2` | `#fdf1ef` |
 | `--color-blue-dark-error-3` | `#fde4e0` |
 | `--color-blue-dark-error-4` | `#fdd5cf` |
 | `--color-blue-dark-error-5` | `#fdc4bc` |
 | `--color-blue-dark-error-6` | `#fdaca0` |
-| `--color-blue-dark-error-7` | `#fb9385` |
+| `--color-blue-dark-error-7` | `#fc9385` |
 | `--color-blue-dark-error-8` | `#f97364` |
 | `--color-blue-dark-error-9` | `#f33f34` |
 | `--color-blue-dark-error-10` | `#d64338` |
-| `--color-blue-dark-error-11` | `#b94136` |
+| `--color-blue-dark-error-11` | `#b94237` |
 | `--color-blue-dark-error-12` | `#5f211b` |
 
 ### Custom — Blue Dark Info
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-dark-info-1` | `#fefdfc` |
-| `--color-blue-dark-info-2` | `#eef5fc` |
-| `--color-blue-dark-info-3` | `#dfecfc` |
+| `--color-blue-dark-info-1` | `#fffdfd` |
+| `--color-blue-dark-info-2` | `#eff5fd` |
+| `--color-blue-dark-info-3` | `#e0edfc` |
 | `--color-blue-dark-info-4` | `#cee3fc` |
 | `--color-blue-dark-info-5` | `#bad8fc` |
-| `--color-blue-dark-info-6` | `#9dc9fd` |
-| `--color-blue-dark-info-7` | `#7fbafd` |
+| `--color-blue-dark-info-6` | `#9ec9fd` |
+| `--color-blue-dark-info-7` | `#80bafe` |
 | `--color-blue-dark-info-8` | `#5aa8fe` |
 | `--color-blue-dark-info-9` | `#0e8eff` |
 | `--color-blue-dark-info-10` | `#2581df` |
-| `--color-blue-dark-info-11` | `#226cb9` |
+| `--color-blue-dark-info-11` | `#236db9` |
 | `--color-blue-dark-info-12` | `#12365e` |
+
+### Custom — Blue Dark 2
+
+| Token | Value |
+|-------|-------|
+| `--color-blue-dark-2-1` | `#fffdfd` |
+| `--color-blue-dark-2-2` | `#f3f5fc` |
+| `--color-blue-dark-2-3` | `#e9ecfb` |
+| `--color-blue-dark-2-4` | `#dde2fa` |
+| `--color-blue-dark-2-5` | `#d0d7fa` |
+| `--color-blue-dark-2-6` | `#bfc7f9` |
+| `--color-blue-dark-2-7` | `#adb8f9` |
+| `--color-blue-dark-2-8` | `#99a5f9` |
+| `--color-blue-dark-2-9` | `#818cf8` |
+| `--color-blue-dark-2-10` | `#7781db` |
+| `--color-blue-dark-2-11` | `#5e66af` |
+| `--color-blue-dark-2-12` | `#2e3258` |
+
+### Custom — Orange
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-1` | `#fffdfd` |
+| `--color-orange-2` | `#fcf6f0` |
+| `--color-orange-3` | `#fbefe2` |
+| `--color-orange-4` | `#fae7d2` |
+| `--color-orange-5` | `#fadec0` |
+| `--color-orange-6` | `#f9d1a4` |
+| `--color-orange-7` | `#f8c487` |
+| `--color-orange-8` | `#f7b462` |
+| `--color-orange-9` | `#f59e0b` |
+| `--color-orange-10` | `#dd9430` |
+| `--color-orange-11` | `#985e00` |
+| `--color-orange-12` | `#4d2f04` |
+
+### Custom — Orange Gray
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-gray-1` | `#fffdfd` |
+| `--color-orange-gray-2` | `#f3f2f1` |
+| `--color-orange-gray-3` | `#e8e7e5` |
+| `--color-orange-gray-4` | `#dcdbd8` |
+| `--color-orange-gray-5` | `#cfcdc9` |
+| `--color-orange-gray-6` | `#bdbab4` |
+| `--color-orange-gray-7` | `#aca7a0` |
+| `--color-orange-gray-8` | `#989389` |
+| `--color-orange-gray-9` | `#7f786c` |
+| `--color-orange-gray-10` | `#716b61` |
+| `--color-orange-gray-11` | `#706c63` |
+| `--color-orange-gray-12` | `#383531` |
+
+### Custom — Orange Error
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-error-1` | `#fffdfd` |
+| `--color-orange-error-2` | `#fcf1ef` |
+| `--color-orange-error-3` | `#fbe5e1` |
+| `--color-orange-error-4` | `#f9d7d1` |
+| `--color-orange-error-5` | `#f8c7bf` |
+| `--color-orange-error-6` | `#f6b0a6` |
+| `--color-orange-error-7` | `#f3988c` |
+| `--color-orange-error-8` | `#ef7c6e` |
+| `--color-orange-error-9` | `#e75144` |
+| `--color-orange-error-10` | `#cc5044` |
+| `--color-orange-error-11` | `#b04b40` |
+| `--color-orange-error-12` | `#5a2520` |
+
+### Custom — Orange Warning
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-warning-1` | `#fffdfd` |
+| `--color-orange-warning-2` | `#fdf6f0` |
+| `--color-orange-warning-3` | `#fceee2` |
+| `--color-orange-warning-4` | `#fbe4d2` |
+| `--color-orange-warning-5` | `#fbdabf` |
+| `--color-orange-warning-6` | `#facba3` |
+| `--color-orange-warning-7` | `#f9bc86` |
+| `--color-orange-warning-8` | `#f8aa61` |
+| `--color-orange-warning-9` | `#f69115` |
+| `--color-orange-warning-10` | `#dd8930` |
+| `--color-orange-warning-11` | `#9e5b09` |
+| `--color-orange-warning-12` | `#502d08` |
+
+### Custom — Orange Success
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-success-1` | `#fffdfd` |
+| `--color-orange-success-2` | `#f0f7f2` |
+| `--color-orange-success-3` | `#e2f1e6` |
+| `--color-orange-success-4` | `#d2ead9` |
+| `--color-orange-success-5` | `#bfe3cb` |
+| `--color-orange-success-6` | `#a4d8b6` |
+| `--color-orange-success-7` | `#87cea1` |
+| `--color-orange-success-8` | `#62c289` |
+| `--color-orange-success-9` | `#0db269` |
+| `--color-orange-success-10` | `#2ba063` |
+| `--color-orange-success-11` | `#197a49` |
+| `--color-orange-success-12` | `#0e3d24` |
+
+### Custom — Orange Info
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-info-1` | `#fffdfd` |
+| `--color-orange-info-2` | `#eff5fc` |
+| `--color-orange-info-3` | `#e1edfb` |
+| `--color-orange-info-4` | `#d1e3fa` |
+| `--color-orange-info-5` | `#bfd8f9` |
+| `--color-orange-info-6` | `#a4c9f8` |
+| `--color-orange-info-7` | `#89baf7` |
+| `--color-orange-info-8` | `#68a9f6` |
+| `--color-orange-info-9` | `#3690f5` |
+| `--color-orange-info-10` | `#3b83d7` |
+| `--color-orange-info-11` | `#336db2` |
+| `--color-orange-info-12` | `#19365a` |
+
+### Custom — Orange 2
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-2-1` | `#fffdfd` |
+| `--color-orange-2-2` | `#f4f1ec` |
+| `--color-orange-2-3` | `#ebe4db` |
+| `--color-orange-2-4` | `#e2d6c7` |
+| `--color-orange-2-5` | `#d7c7b1` |
+| `--color-orange-2-6` | `#c9b192` |
+| `--color-orange-2-7` | `#ba9c72` |
+| `--color-orange-2-8` | `#aa844c` |
+| `--color-orange-2-9` | `#956400` |
+| `--color-orange-2-10` | `#825913` |
+| `--color-orange-2-11` | `#886632` |
+| `--color-orange-2-12` | `#443218` |
+
+### Custom — Orange 3
+
+| Token | Value |
+|-------|-------|
+| `--color-orange-3-1` | `#fffdfd` |
+| `--color-orange-3-2` | `#faf1fc` |
+| `--color-orange-3-3` | `#f6e5fa` |
+| `--color-orange-3-4` | `#f3d7f9` |
+| `--color-orange-3-5` | `#efc6f8` |
+| `--color-orange-3-6` | `#eaaff6` |
+| `--color-orange-3-7` | `#e496f5` |
+| `--color-orange-3-8` | `#de77f3` |
+| `--color-orange-3-9` | `#d444f1` |
+| `--color-orange-3-10` | `#bc48d4` |
+| `--color-orange-3-11` | `#9f42b3` |
+| `--color-orange-3-12` | `#51215c` |
 
 ### Semantic Tokens
 
-| Token | Light | Dark | Blue-dark |
-|-------|-------|-------|-------|
-| `--color-border-strong` | `#7f796c` | `#66635d` | `#c7ccd6` |
-| `--color-border-disabled` | `#cfcdc9` | `#2b2a28` | `#2d2f32` |
-| `--color-border-brand` | `#eaaa08` | `#f3c571` | `#abceff` |
-| `--color-border-brand-alt` | `#eebd62` | `#66635d` | `#6c727f` |
-| `--color-border-error` | `#e65345` | `#ffbcaf` | `#ffbcb0` |
-| `--color-border-error-subtle` | `#f7c7bf` | `#502a25` | `#532722` |
-| `--color-content-primary` | `#383531` | `#e5e4e1` | `#e2e4eb` |
-| `--color-content-secondary` | `#706b62` | `#ceccc7` | `#c7ccd6` |
-| `--color-content-tertiary` | `#716c61` | `#73706b` | `#7a7f8a` |
-| `--color-content-quaternary` | `#7f796c` | `#66635d` | `#6c727f` |
-| `--color-content-inverse` | `#ffffff` | `#ffffff` | `#ffffff` |
-| `--color-content-disabled` | `#bdbab4` | `#373633` | `#3a3c41` |
-| `--color-content-brand` | `#8e6300` | `#f3c571` | `#abceff` |
-| `--color-content-brand-hover` | `#473102` | `#fbe1b2` | `#d1e7ff` |
-| `--color-content-error` | `#af4b40` | `#ffbcaf` | `#ffbcb0` |
-| `--color-content-warning` | `#9d5b0d` | `#ffbf7c` | `#ffbf7c` |
-| `--color-content-success` | `#1c7a4a` | `#86dea7` | `#86dea7` |
-| `--color-background-primary` | `#ffffff` | `#110f0c` | `#110f0c` |
-| `--color-background-primary-hover` | `#f2f2f1` | `#151515` | `#161617` |
-| `--color-background-secondary` | `#f2f2f1` | `#151515` | `#161617` |
-| `--color-background-secondary-hover` | `#e8e7e5` | `#1b1b1a` | `#1c1d1e` |
-| `--color-background-tertiary` | `#e8e7e5` | `#1b1b1a` | `#1c1d1e` |
-| `--color-background-quaternary` | `#dcdbd8` | `#232221` | `#242527` |
-| `--color-background-active` | `#f2f2f1` | `#151515` | `#161617` |
-| `--color-background-disabled` | `#e8e7e5` | `#1b1b1a` | `#1c1d1e` |
-| `--color-background-disabled-subtle` | `#f2f2f1` | `#151515` | `#161617` |
-| `--color-background-overlay` | `#383531` | `#110f0c` | `#110f0c` |
-| `--color-background-brand-primary` | `#fbf7f0` | `#1d1a15` | `#13171d` |
-| `--color-background-brand-secondary` | `#f9f1e3` | `#2b251a` | `#171f2c` |
-| `--color-background-brand-solid` | `#8e6300` | `#8e6c29` | `#285cc3` |
-| `--color-background-brand-solid-hover` | `#473102` | `#b58625` | `#2970ff` |
-| `--color-background-error-primary` | `#fcf1ef` | `#1d1615` | `#1e1514` |
-| `--color-background-error-solid` | `#af4b40` | `#b2473c` | `#bc3b31` |
-| `--color-background-warning-primary` | `#fcf5f0` | `#1d1915` | `#1d1915` |
-| `--color-background-warning-solid` | `#9d5b0d` | `#955e2a` | `#955e2a` |
-| `--color-background-success-primary` | `#f0f7f2` | `#151a16` | `#151a16` |
-| `--color-background-success-solid` | `#1c7a4a` | `#2a6f48` | `#2a6f48` |
-| `--color-border-primary` | `#cfcdc9` | `#2b2a28` | `#2d2f32` |
-| `--color-border-secondary` | `#dcdbd8` | `#232221` | `#242527` |
-| `--color-border-tertiary` | `#e8e7e5` | `#1b1b1a` | `#1c1d1e` |
+| Token | Light | Dark | Blue-dark | Pink |
+|-------|-------|-------|-------|-------|
+| `--color-border-strong` | `#7f6c70` | `#6a6062` | `#c7ccd6` | `#7f786c` |
+| `--color-border-disabled` | `#cfc8ca` | `#2c292a` | `#2d2f32` | `#cfcdc9` |
+| `--color-border-brand` | `#f63d68` | `#ffbac1` | `#5e66af` | `#d444f1` |
+| `--color-border-brand-alt` | `#fb7287` | `#6a6062` | `#6c727f` | `#de77f3` |
+| `--color-border-error` | `#f24135` | `#ffbcaf` | `#ffbcb0` | `#e75144` |
+| `--color-border-error-subtle` | `#fdc5bc` | `#532822` | `#542822` | `#f8c7bf` |
+| `--color-content-primary` | `#3b3335` | `#e8e3e3` | `#e2e4eb` | `#383531` |
+| `--color-content-secondary` | `#76696c` | `#d2cacb` | `#c7ccd6` | `#706c63` |
+| `--color-content-tertiary` | `#706063` | `#766d6f` | `#7a7f8a` | `#716b61` |
+| `--color-content-quaternary` | `#7f6c70` | `#6a6062` | `#6c727f` | `#7f786c` |
+| `--color-content-inverse` | `#ffffff` | `#ffffff` | `#ffffff` | `#ffffff` |
+| `--color-content-disabled` | `#bdb4b6` | `#393535` | `#3a3c42` | `#bdbab4` |
+| `--color-content-brand` | `#b93e56` | `#ffbac1` | `#5e66af` | `#9f42b3` |
+| `--color-content-brand-hover` | `#5f1f2b` | `#ffdcdf` | `#2e3258` | `#51215c` |
+| `--color-content-error` | `#b94237` | `#ffbcaf` | `#ffbcb0` | `#b04b40` |
+| `--color-content-warning` | `#a45700` | `#ffbf85` | `#ffbf85` | `#9e5b09` |
+| `--color-content-success` | `#137b42` | `#82df9f` | `#82df9f` | `#197a49` |
+| `--color-background-primary` | `#ffffff` | `#130e0f` | `#130e0f` | `#ffffff` |
+| `--color-background-primary-hover` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
+| `--color-background-secondary` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
+| `--color-background-secondary-hover` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
+| `--color-background-tertiary` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
+| `--color-background-quaternary` | `#dcd7d8` | `#232222` | `#242528` | `#dcdbd8` |
+| `--color-background-active` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
+| `--color-background-disabled` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
+| `--color-background-disabled-subtle` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
+| `--color-background-overlay` | `#3b3335` | `#130e0f` | `#130e0f` | `#383531` |
+| `--color-background-brand-primary` | `#fef1f2` | `#1e1516` | `#f3f5fc` | `#faf1fc` |
+| `--color-background-brand-secondary` | `#fee4e6` | `#2d1b1d` | `#e9ecfb` | `#f6e5fa` |
+| `--color-background-brand-solid` | `#b93e56` | `#be3a55` | `#5e66af` | `#9f42b3` |
+| `--color-background-brand-solid-hover` | `#5f1f2b` | `#f63d68` | `#2e3258` | `#51215c` |
+| `--color-background-error-primary` | `#fdf1ef` | `#1e1614` | `#1e1514` | `#fcf1ef` |
+| `--color-background-error-solid` | `#b94237` | `#bb3c32` | `#bc3b31` | `#b04b40` |
+| `--color-background-warning-primary` | `#fdf5f0` | `#1e1915` | `#1e1915` | `#fdf6f0` |
+| `--color-background-warning-solid` | `#a45700` | `#9a5b26` | `#9a5b26` | `#9e5b09` |
+| `--color-background-success-primary` | `#f0f8f2` | `#151a16` | `#151a16` | `#f0f7f2` |
+| `--color-background-success-solid` | `#137b42` | `#277243` | `#277243` | `#197a49` |
+| `--color-border-primary` | `#cfc8ca` | `#2c292a` | `#2d2f32` | `#cfcdc9` |
+| `--color-border-secondary` | `#dcd7d8` | `#232222` | `#242528` | `#dcdbd8` |
+| `--color-border-tertiary` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
 
 ---
 
@@ -346,7 +499,7 @@
 | Role | Aliases |
 |------|---------|
 | `--radius-control` | `var(--radius-xs)` |
-| `--radius-action` | `var(--radius-md)` |
+| `--radius-action` | `var(--radius-lg)` |
 | `--radius-container` | `var(--radius-lg)` |
 | `--radius-overlay` | `var(--radius-xl)` |
 | `--radius-pill` | `var(--radius-full)` |
@@ -446,8 +599,8 @@ Line weight — not paint. Color stays on `border.*`.
 
 | Token | Type | Light | Dark |
 |-------|------|-------|------|
-| `--gradient-brand-cover` | linear | `linear-gradient(135deg, #eaaa08 0%, #473102 100%)` | `linear-gradient(135deg, #eaaa08 0%, #fbe1b2 100%)` |
-| `--gradient-aurora` | linear | `linear-gradient(120deg, #f0ca88 0%, #eaaa08 50%, #8e6300 100%)` | `linear-gradient(120deg, #8e6c29 0%, #eaaa08 50%, #f3c571 100%)` |
+| `--gradient-brand-cover` | linear | `linear-gradient(135deg, #f63d68 0%, #5f1f2b 100%)` | `linear-gradient(135deg, #f63d68 0%, #ffdcdf 100%)` |
+| `--gradient-aurora` | linear | `linear-gradient(120deg, #fe929f 0%, #f63d68 50%, #b93e56 100%)` | `linear-gradient(120deg, #963546 0%, #f63d68 50%, #ffbac1 100%)` |
 | `--gradient-moss-glow` | radial | `radial-gradient(circle at 30% 30%, #66c61c 0%, #16653a 100%)` | — |
 
 Assigned surfaces: card cover → `--gradient-brand-cover`, avatars → `--gradient-aurora`.
@@ -498,7 +651,7 @@ When generating UI for this product, use icons from https://github.com/untitledu
 }
 ```
 
-Dark mode applies via the `.dark` class on `<html>`; extra themes (Blue-dark) via `data-theme="<name>"`.
+Dark mode applies via the `.dark` class on `<html>`; extra themes (Blue-dark, Pink) via `data-theme="<name>"`.
 
 **In Figma** — install the Escala DS plugin and import `tokens.json` (or point its Live Sync tab at your published endpoint). Primitives, semantic themes and typography land as Figma Variables.
 
