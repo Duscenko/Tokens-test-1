@@ -4,8 +4,8 @@
 
 ## Overview
 
-- **Primary color:** `#f63d68`
-- **Themes:** Light, Dark, Mint
+- **Primary color:** `#9522e9`
+- **Themes:** Light, Dark, Blue-marin
 - **Semantic architecture:** Categorical Semantic
 - **Panel background:** Solid
 - **Heading font:** Inter
@@ -22,62 +22,62 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-accent-1` | `#fffdfd` |
-| `--color-accent-2` | `#fef1f2` |
-| `--color-accent-3` | `#fee4e6` |
-| `--color-accent-4` | `#fed5d8` |
-| `--color-accent-5` | `#ffc4c9` |
-| `--color-accent-6` | `#ffacb4` |
-| `--color-accent-7` | `#fe929f` |
-| `--color-accent-8` | `#fb7287` |
-| `--color-accent-9` | `#f63d68` |
-| `--color-accent-10` | `#d94261` |
-| `--color-accent-11` | `#b93e56` |
-| `--color-accent-12` | `#5f1f2b` |
+| `--color-accent-1` | `#fefdff` |
+| `--color-accent-2` | `#f4effb` |
+| `--color-accent-3` | `#ebe1f9` |
+| `--color-accent-4` | `#e0d0f7` |
+| `--color-accent-5` | `#d5bdf5` |
+| `--color-accent-6` | `#c7a3f3` |
+| `--color-accent-7` | `#b887f1` |
+| `--color-accent-8` | `#a964ee` |
+| `--color-accent-9` | `#9522e9` |
+| `--color-accent-10` | `#822ac8` |
+| `--color-accent-11` | `#8b4ac9` |
+| `--color-accent-12` | `#462566` |
 
 ### Primitive Scale — Neutral
 
 | Token | Value |
 |-------|-------|
-| `--color-neutral-1` | `#fffdfd` |
-| `--color-neutral-2` | `#f3f1f1` |
-| `--color-neutral-3` | `#e8e5e6` |
-| `--color-neutral-4` | `#dcd7d8` |
-| `--color-neutral-5` | `#cfc8ca` |
-| `--color-neutral-6` | `#bdb4b6` |
-| `--color-neutral-7` | `#ac9fa2` |
-| `--color-neutral-8` | `#98898c` |
-| `--color-neutral-9` | `#7f6c70` |
-| `--color-neutral-10` | `#706063` |
-| `--color-neutral-11` | `#76696c` |
-| `--color-neutral-12` | `#3b3335` |
+| `--color-neutral-1` | `#fefdff` |
+| `--color-neutral-2` | `#f2f1f3` |
+| `--color-neutral-3` | `#e7e5e8` |
+| `--color-neutral-4` | `#dad7dc` |
+| `--color-neutral-5` | `#ccc8cf` |
+| `--color-neutral-6` | `#b9b4bd` |
+| `--color-neutral-7` | `#a69fab` |
+| `--color-neutral-8` | `#928998` |
+| `--color-neutral-9` | `#776c7f` |
+| `--color-neutral-10` | `#696070` |
+| `--color-neutral-11` | `#716977` |
+| `--color-neutral-12` | `#38343b` |
 
 ### Primitive Scale — Error
 
 | Token | Value |
 |-------|-------|
-| `--color-error-1` | `#fffdfd` |
-| `--color-error-2` | `#fdf1ef` |
-| `--color-error-3` | `#fde4e0` |
-| `--color-error-4` | `#fdd5cf` |
-| `--color-error-5` | `#fdc5bc` |
-| `--color-error-6` | `#fcada1` |
-| `--color-error-7` | `#fb9385` |
-| `--color-error-8` | `#f87465` |
-| `--color-error-9` | `#f24135` |
-| `--color-error-10` | `#d54538` |
-| `--color-error-11` | `#b94237` |
-| `--color-error-12` | `#5e221b` |
+| `--color-error-1` | `#fefdff` |
+| `--color-error-2` | `#fef0ee` |
+| `--color-error-3` | `#ffe3df` |
+| `--color-error-4` | `#ffd4cd` |
+| `--color-error-5` | `#ffc3b9` |
+| `--color-error-6` | `#ffaa9d` |
+| `--color-error-7` | `#ff8f80` |
+| `--color-error-8` | `#ff6d5d` |
+| `--color-error-9` | `#fb2e26` |
+| `--color-error-10` | `#dd392e` |
+| `--color-error-11` | `#be3a2f` |
+| `--color-error-12` | `#621e18` |
 
 ### Primitive Scale — Warning
 
 | Token | Value |
 |-------|-------|
-| `--color-warning-1` | `#fffdfd` |
+| `--color-warning-1` | `#fefdff` |
 | `--color-warning-2` | `#fdf5f0` |
-| `--color-warning-3` | `#fdede2` |
+| `--color-warning-3` | `#fdede1` |
 | `--color-warning-4` | `#fee3d1` |
-| `--color-warning-5` | `#fed9be` |
+| `--color-warning-5` | `#fed8be` |
 | `--color-warning-6` | `#ffc9a2` |
 | `--color-warning-7` | `#ffb984` |
 | `--color-warning-8` | `#ffa55e` |
@@ -90,358 +90,137 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-success-1` | `#fffdfd` |
-| `--color-success-2` | `#f0f8f2` |
+| `--color-success-1` | `#fefdff` |
+| `--color-success-2` | `#f0f8f1` |
 | `--color-success-3` | `#e2f2e6` |
 | `--color-success-4` | `#d2ebd8` |
 | `--color-success-5` | `#bfe4c8` |
-| `--color-success-6` | `#a4dab3` |
-| `--color-success-7` | `#87d19d` |
-| `--color-success-8` | `#61c583` |
-| `--color-success-9` | `#00b660` |
-| `--color-success-10` | `#29a45c` |
-| `--color-success-11` | `#137b42` |
-| `--color-success-12` | `#0c3e21` |
+| `--color-success-6` | `#a4dbb2` |
+| `--color-success-7` | `#87d19c` |
+| `--color-success-8` | `#62c682` |
+| `--color-success-9` | `#00b75f` |
+| `--color-success-10` | `#29a55c` |
+| `--color-success-11` | `#117b41` |
+| `--color-success-12` | `#0c3e20` |
 
 ### Primitive Scale — Info
 
 | Token | Value |
 |-------|-------|
-| `--color-info-1` | `#fffdfd` |
-| `--color-info-2` | `#eff5fd` |
-| `--color-info-3` | `#e0edfc` |
+| `--color-info-1` | `#fefdff` |
+| `--color-info-2` | `#eef5fd` |
+| `--color-info-3` | `#dfecfc` |
 | `--color-info-4` | `#cee3fc` |
-| `--color-info-5` | `#bbd9fc` |
-| `--color-info-6` | `#9ecafd` |
-| `--color-info-7` | `#81bafe` |
-| `--color-info-8` | `#5ca8fe` |
-| `--color-info-9` | `#148fff` |
-| `--color-info-10` | `#2782df` |
-| `--color-info-11` | `#246db8` |
-| `--color-info-12` | `#12365e` |
+| `--color-info-5` | `#bad8fc` |
+| `--color-info-6` | `#9dc9fd` |
+| `--color-info-7` | `#7ebafe` |
+| `--color-info-8` | `#58a8fe` |
+| `--color-info-9` | `#008eff` |
+| `--color-info-10` | `#2081df` |
+| `--color-info-11` | `#206db9` |
+| `--color-info-12` | `#10365e` |
 
-### Custom — Blue Dark
-
-| Token | Value |
-|-------|-------|
-| `--color-blue-dark-1` | `#fffdfd` |
-| `--color-blue-dark-2` | `#eef3fd` |
-| `--color-blue-dark-3` | `#dee9fc` |
-| `--color-blue-dark-4` | `#cbddfc` |
-| `--color-blue-dark-5` | `#b7d0fd` |
-| `--color-blue-dark-6` | `#9abdfd` |
-| `--color-blue-dark-7` | `#7ca9fe` |
-| `--color-blue-dark-8` | `#5a92ff` |
-| `--color-blue-dark-9` | `#2970ff` |
-| `--color-blue-dark-10` | `#2c67dc` |
-| `--color-blue-dark-11` | `#3667c9` |
-| `--color-blue-dark-12` | `#1a3366` |
-
-### Custom — Blue Dark Gray
+### Custom — Blue Marin
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-dark-gray-1` | `#fffdfd` |
-| `--color-blue-dark-gray-2` | `#f1f2f3` |
-| `--color-blue-dark-gray-3` | `#e5e6e8` |
-| `--color-blue-dark-gray-4` | `#d7d9dc` |
-| `--color-blue-dark-gray-5` | `#c8cacf` |
-| `--color-blue-dark-gray-6` | `#b4b7bd` |
-| `--color-blue-dark-gray-7` | `#9fa3ab` |
-| `--color-blue-dark-gray-8` | `#898e98` |
-| `--color-blue-dark-gray-9` | `#6c727f` |
-| `--color-blue-dark-gray-10` | `#606570` |
-| `--color-blue-dark-gray-11` | `#686c76` |
-| `--color-blue-dark-gray-12` | `#33353a` |
+| `--color-blue-marin-1` | `#fefdff` |
+| `--color-blue-marin-2` | `#f2fafc` |
+| `--color-blue-marin-3` | `#e6f6fa` |
+| `--color-blue-marin-4` | `#d9f3f8` |
+| `--color-blue-marin-5` | `#c8eff6` |
+| `--color-blue-marin-6` | `#b0e9f4` |
+| `--color-blue-marin-7` | `#95e3f2` |
+| `--color-blue-marin-8` | `#71dcf0` |
+| `--color-blue-marin-9` | `#22d3ee` |
+| `--color-blue-marin-10` | `#40c2d8` |
+| `--color-blue-marin-11` | `#007587` |
+| `--color-blue-marin-12` | `#013b45` |
 
-### Custom — Blue Dark Error
-
-| Token | Value |
-|-------|-------|
-| `--color-blue-dark-error-1` | `#fffdfd` |
-| `--color-blue-dark-error-2` | `#fdf1ef` |
-| `--color-blue-dark-error-3` | `#fde4e0` |
-| `--color-blue-dark-error-4` | `#fdd5cf` |
-| `--color-blue-dark-error-5` | `#fdc4bc` |
-| `--color-blue-dark-error-6` | `#fdaca0` |
-| `--color-blue-dark-error-7` | `#fc9385` |
-| `--color-blue-dark-error-8` | `#f97364` |
-| `--color-blue-dark-error-9` | `#f33f34` |
-| `--color-blue-dark-error-10` | `#d64338` |
-| `--color-blue-dark-error-11` | `#b94237` |
-| `--color-blue-dark-error-12` | `#5f211b` |
-
-### Custom — Blue Dark Info
+### Custom — Blue Marin Gray
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-dark-info-1` | `#fffdfd` |
-| `--color-blue-dark-info-2` | `#eff5fd` |
-| `--color-blue-dark-info-3` | `#e0edfc` |
-| `--color-blue-dark-info-4` | `#cee3fc` |
-| `--color-blue-dark-info-5` | `#bad8fc` |
-| `--color-blue-dark-info-6` | `#9ec9fd` |
-| `--color-blue-dark-info-7` | `#80bafe` |
-| `--color-blue-dark-info-8` | `#5aa8fe` |
-| `--color-blue-dark-info-9` | `#0e8eff` |
-| `--color-blue-dark-info-10` | `#2581df` |
-| `--color-blue-dark-info-11` | `#236db9` |
-| `--color-blue-dark-info-12` | `#12365e` |
+| `--color-blue-marin-gray-1` | `#fefdff` |
+| `--color-blue-marin-gray-2` | `#f1f2f3` |
+| `--color-blue-marin-gray-3` | `#e5e8e8` |
+| `--color-blue-marin-gray-4` | `#d8dbdc` |
+| `--color-blue-marin-gray-5` | `#c9cecf` |
+| `--color-blue-marin-gray-6` | `#b4bcbd` |
+| `--color-blue-marin-gray-7` | `#a0aaac` |
+| `--color-blue-marin-gray-8` | `#899698` |
+| `--color-blue-marin-gray-9` | `#6c7c7f` |
+| `--color-blue-marin-gray-10` | `#616e71` |
+| `--color-blue-marin-gray-11` | `#636e71` |
+| `--color-blue-marin-gray-12` | `#313638` |
 
-### Custom — Blue Dark 2
-
-| Token | Value |
-|-------|-------|
-| `--color-blue-dark-2-1` | `#fffdfd` |
-| `--color-blue-dark-2-2` | `#f3f5fc` |
-| `--color-blue-dark-2-3` | `#e9ecfb` |
-| `--color-blue-dark-2-4` | `#dde2fa` |
-| `--color-blue-dark-2-5` | `#d0d7fa` |
-| `--color-blue-dark-2-6` | `#bfc7f9` |
-| `--color-blue-dark-2-7` | `#adb8f9` |
-| `--color-blue-dark-2-8` | `#99a5f9` |
-| `--color-blue-dark-2-9` | `#818cf8` |
-| `--color-blue-dark-2-10` | `#7781db` |
-| `--color-blue-dark-2-11` | `#5e66af` |
-| `--color-blue-dark-2-12` | `#2e3258` |
-
-### Custom — Orange
+### Custom — Blue Marin Error
 
 | Token | Value |
 |-------|-------|
-| `--color-orange-1` | `#fffdfd` |
-| `--color-orange-2` | `#fcf6f0` |
-| `--color-orange-3` | `#fbefe2` |
-| `--color-orange-4` | `#fae7d2` |
-| `--color-orange-5` | `#fadec0` |
-| `--color-orange-6` | `#f9d1a4` |
-| `--color-orange-7` | `#f8c487` |
-| `--color-orange-8` | `#f7b462` |
-| `--color-orange-9` | `#f59e0b` |
-| `--color-orange-10` | `#dd9430` |
-| `--color-orange-11` | `#985e00` |
-| `--color-orange-12` | `#4d2f04` |
+| `--color-blue-marin-error-1` | `#fefdff` |
+| `--color-blue-marin-error-2` | `#fbf1f0` |
+| `--color-blue-marin-error-3` | `#f9e5e2` |
+| `--color-blue-marin-error-4` | `#f7d8d2` |
+| `--color-blue-marin-error-5` | `#f5c8c1` |
+| `--color-blue-marin-error-6` | `#f2b2a8` |
+| `--color-blue-marin-error-7` | `#ee9b8f` |
+| `--color-blue-marin-error-8` | `#e98072` |
+| `--color-blue-marin-error-9` | `#e0594b` |
+| `--color-blue-marin-error-10` | `#c65649` |
+| `--color-blue-marin-error-11` | `#ab4f44` |
+| `--color-blue-marin-error-12` | `#572722` |
 
-### Custom — Orange Gray
-
-| Token | Value |
-|-------|-------|
-| `--color-orange-gray-1` | `#fffdfd` |
-| `--color-orange-gray-2` | `#f3f2f1` |
-| `--color-orange-gray-3` | `#e8e7e5` |
-| `--color-orange-gray-4` | `#dcdbd8` |
-| `--color-orange-gray-5` | `#cfcdc9` |
-| `--color-orange-gray-6` | `#bdbab4` |
-| `--color-orange-gray-7` | `#aca7a0` |
-| `--color-orange-gray-8` | `#989389` |
-| `--color-orange-gray-9` | `#7f786c` |
-| `--color-orange-gray-10` | `#716b61` |
-| `--color-orange-gray-11` | `#706c63` |
-| `--color-orange-gray-12` | `#383531` |
-
-### Custom — Orange Error
+### Custom — Blue Marin Warning
 
 | Token | Value |
 |-------|-------|
-| `--color-orange-error-1` | `#fffdfd` |
-| `--color-orange-error-2` | `#fcf1ef` |
-| `--color-orange-error-3` | `#fbe5e1` |
-| `--color-orange-error-4` | `#f9d7d1` |
-| `--color-orange-error-5` | `#f8c7bf` |
-| `--color-orange-error-6` | `#f6b0a6` |
-| `--color-orange-error-7` | `#f3988c` |
-| `--color-orange-error-8` | `#ef7c6e` |
-| `--color-orange-error-9` | `#e75144` |
-| `--color-orange-error-10` | `#cc5044` |
-| `--color-orange-error-11` | `#b04b40` |
-| `--color-orange-error-12` | `#5a2520` |
+| `--color-blue-marin-warning-1` | `#fefdff` |
+| `--color-blue-marin-warning-2` | `#fcf6f0` |
+| `--color-blue-marin-warning-3` | `#fbeee3` |
+| `--color-blue-marin-warning-4` | `#f9e5d4` |
+| `--color-blue-marin-warning-5` | `#f8dbc2` |
+| `--color-blue-marin-warning-6` | `#f7cca8` |
+| `--color-blue-marin-warning-7` | `#f5bd8d` |
+| `--color-blue-marin-warning-8` | `#f3ac6c` |
+| `--color-blue-marin-warning-9` | `#f09434` |
+| `--color-blue-marin-warning-10` | `#d88b40` |
+| `--color-blue-marin-warning-11` | `#9a5d1e` |
+| `--color-blue-marin-warning-12` | `#4e2e0f` |
 
-### Custom — Orange Warning
-
-| Token | Value |
-|-------|-------|
-| `--color-orange-warning-1` | `#fffdfd` |
-| `--color-orange-warning-2` | `#fdf6f0` |
-| `--color-orange-warning-3` | `#fceee2` |
-| `--color-orange-warning-4` | `#fbe4d2` |
-| `--color-orange-warning-5` | `#fbdabf` |
-| `--color-orange-warning-6` | `#facba3` |
-| `--color-orange-warning-7` | `#f9bc86` |
-| `--color-orange-warning-8` | `#f8aa61` |
-| `--color-orange-warning-9` | `#f69115` |
-| `--color-orange-warning-10` | `#dd8930` |
-| `--color-orange-warning-11` | `#9e5b09` |
-| `--color-orange-warning-12` | `#502d08` |
-
-### Custom — Orange Success
+### Custom — Blue Marin Success
 
 | Token | Value |
 |-------|-------|
-| `--color-orange-success-1` | `#fffdfd` |
-| `--color-orange-success-2` | `#f0f7f2` |
-| `--color-orange-success-3` | `#e2f1e6` |
-| `--color-orange-success-4` | `#d2ead9` |
-| `--color-orange-success-5` | `#bfe3cb` |
-| `--color-orange-success-6` | `#a4d8b6` |
-| `--color-orange-success-7` | `#87cea1` |
-| `--color-orange-success-8` | `#62c289` |
-| `--color-orange-success-9` | `#0db269` |
-| `--color-orange-success-10` | `#2ba063` |
-| `--color-orange-success-11` | `#197a49` |
-| `--color-orange-success-12` | `#0e3d24` |
+| `--color-blue-marin-success-1` | `#fefdff` |
+| `--color-blue-marin-success-2` | `#f0f7f2` |
+| `--color-blue-marin-success-3` | `#e3f0e7` |
+| `--color-blue-marin-success-4` | `#d3e9da` |
+| `--color-blue-marin-success-5` | `#c2e2cc` |
+| `--color-blue-marin-success-6` | `#a8d7b8` |
+| `--color-blue-marin-success-7` | `#8dcca4` |
+| `--color-blue-marin-success-8` | `#6bc08d` |
+| `--color-blue-marin-success-9` | `#31b06e` |
+| `--color-blue-marin-success-10` | `#3b9e67` |
+| `--color-blue-marin-success-11` | `#28794d` |
+| `--color-blue-marin-success-12` | `#143d26` |
 
-### Custom — Orange Info
-
-| Token | Value |
-|-------|-------|
-| `--color-orange-info-1` | `#fffdfd` |
-| `--color-orange-info-2` | `#eff5fc` |
-| `--color-orange-info-3` | `#e1edfb` |
-| `--color-orange-info-4` | `#d1e3fa` |
-| `--color-orange-info-5` | `#bfd8f9` |
-| `--color-orange-info-6` | `#a4c9f8` |
-| `--color-orange-info-7` | `#89baf7` |
-| `--color-orange-info-8` | `#68a9f6` |
-| `--color-orange-info-9` | `#3690f5` |
-| `--color-orange-info-10` | `#3b83d7` |
-| `--color-orange-info-11` | `#336db2` |
-| `--color-orange-info-12` | `#19365a` |
-
-### Custom — Orange 2
+### Custom — Blue Marin Info
 
 | Token | Value |
 |-------|-------|
-| `--color-orange-2-1` | `#fffdfd` |
-| `--color-orange-2-2` | `#f4f1ec` |
-| `--color-orange-2-3` | `#ebe4db` |
-| `--color-orange-2-4` | `#e2d6c7` |
-| `--color-orange-2-5` | `#d7c7b1` |
-| `--color-orange-2-6` | `#c9b192` |
-| `--color-orange-2-7` | `#ba9c72` |
-| `--color-orange-2-8` | `#aa844c` |
-| `--color-orange-2-9` | `#956400` |
-| `--color-orange-2-10` | `#825913` |
-| `--color-orange-2-11` | `#886632` |
-| `--color-orange-2-12` | `#443218` |
-
-### Custom — Orange 3
-
-| Token | Value |
-|-------|-------|
-| `--color-orange-3-1` | `#fffdfd` |
-| `--color-orange-3-2` | `#faf1fc` |
-| `--color-orange-3-3` | `#f6e5fa` |
-| `--color-orange-3-4` | `#f3d7f9` |
-| `--color-orange-3-5` | `#efc6f8` |
-| `--color-orange-3-6` | `#eaaff6` |
-| `--color-orange-3-7` | `#e496f5` |
-| `--color-orange-3-8` | `#de77f3` |
-| `--color-orange-3-9` | `#d444f1` |
-| `--color-orange-3-10` | `#bc48d4` |
-| `--color-orange-3-11` | `#9f42b3` |
-| `--color-orange-3-12` | `#51215c` |
-
-### Custom — Mint
-
-| Token | Value |
-|-------|-------|
-| `--color-mint-1` | `#fffdfd` |
-| `--color-mint-2` | `#f2faf6` |
-| `--color-mint-3` | `#e6f6ee` |
-| `--color-mint-4` | `#d9f2e5` |
-| `--color-mint-5` | `#c9eedb` |
-| `--color-mint-6` | `#b1e8cd` |
-| `--color-mint-7` | `#97e3bf` |
-| `--color-mint-8` | `#75dcae` |
-| `--color-mint-9` | `#34d399` |
-| `--color-mint-10` | `#46c090` |
-| `--color-mint-11` | `#017a55` |
-| `--color-mint-12` | `#083d2a` |
-
-### Custom — Mint Gray
-
-| Token | Value |
-|-------|-------|
-| `--color-mint-gray-1` | `#fffdfd` |
-| `--color-mint-gray-2` | `#f1f3f2` |
-| `--color-mint-gray-3` | `#e5e8e7` |
-| `--color-mint-gray-4` | `#d8dcdb` |
-| `--color-mint-gray-5` | `#c9cfcd` |
-| `--color-mint-gray-6` | `#b4bdba` |
-| `--color-mint-gray-7` | `#a0aca7` |
-| `--color-mint-gray-8` | `#899893` |
-| `--color-mint-gray-9` | `#6c7f78` |
-| `--color-mint-gray-10` | `#61716b` |
-| `--color-mint-gray-11` | `#626f6b` |
-| `--color-mint-gray-12` | `#303735` |
-
-### Custom — Mint Error
-
-| Token | Value |
-|-------|-------|
-| `--color-mint-error-1` | `#fffdfd` |
-| `--color-mint-error-2` | `#fcf1f0` |
-| `--color-mint-error-3` | `#fae5e2` |
-| `--color-mint-error-4` | `#f9d7d2` |
-| `--color-mint-error-5` | `#f7c7c0` |
-| `--color-mint-error-6` | `#f4b1a7` |
-| `--color-mint-error-7` | `#f1998d` |
-| `--color-mint-error-8` | `#ec7d70` |
-| `--color-mint-error-9` | `#e45447` |
-| `--color-mint-error-10` | `#c95246` |
-| `--color-mint-error-11` | `#af4c42` |
-| `--color-mint-error-12` | `#592621` |
-
-### Custom — Mint Warning
-
-| Token | Value |
-|-------|-------|
-| `--color-mint-warning-1` | `#fffdfd` |
-| `--color-mint-warning-2` | `#fcf6f0` |
-| `--color-mint-warning-3` | `#fbeee2` |
-| `--color-mint-warning-4` | `#fae5d2` |
-| `--color-mint-warning-5` | `#fadac0` |
-| `--color-mint-warning-6` | `#f9cca5` |
-| `--color-mint-warning-7` | `#f8bd89` |
-| `--color-mint-warning-8` | `#f6ab65` |
-| `--color-mint-warning-9` | `#f49223` |
-| `--color-mint-warning-10` | `#db8936` |
-| `--color-mint-warning-11` | `#9c5c12` |
-| `--color-mint-warning-12` | `#4f2d0a` |
-
-### Custom — Mint Success
-
-| Token | Value |
-|-------|-------|
-| `--color-mint-success-1` | `#fffdfd` |
-| `--color-mint-success-2` | `#f0f7f2` |
-| `--color-mint-success-3` | `#e2f1e7` |
-| `--color-mint-success-4` | `#d2eada` |
-| `--color-mint-success-5` | `#c0e3cb` |
-| `--color-mint-success-6` | `#a6d8b7` |
-| `--color-mint-success-7` | `#8acea2` |
-| `--color-mint-success-8` | `#66c28a` |
-| `--color-mint-success-9` | `#1fb26b` |
-| `--color-mint-success-10` | `#32a065` |
-| `--color-mint-success-11` | `#1f7a4b` |
-| `--color-mint-success-12` | `#103d25` |
-
-### Custom — Mint Info
-
-| Token | Value |
-|-------|-------|
-| `--color-mint-info-1` | `#fffdfd` |
-| `--color-mint-info-2` | `#f0f5fc` |
-| `--color-mint-info-3` | `#e2edfa` |
-| `--color-mint-info-4` | `#d2e3f9` |
-| `--color-mint-info-5` | `#bfd9f8` |
-| `--color-mint-info-6` | `#a5caf6` |
-| `--color-mint-info-7` | `#8abbf5` |
-| `--color-mint-info-8` | `#6aa9f4` |
-| `--color-mint-info-9` | `#3a91f2` |
-| `--color-mint-info-10` | `#3e84d5` |
-| `--color-mint-info-11` | `#346daf` |
-| `--color-mint-info-12` | `#193659` |
+| `--color-blue-marin-info-1` | `#fefdff` |
+| `--color-blue-marin-info-2` | `#f0f5fb` |
+| `--color-blue-marin-info-3` | `#e2ecf9` |
+| `--color-blue-marin-info-4` | `#d2e3f8` |
+| `--color-blue-marin-info-5` | `#c1d8f6` |
+| `--color-blue-marin-info-6` | `#a7c9f4` |
+| `--color-blue-marin-info-7` | `#8dbaf2` |
+| `--color-blue-marin-info-8` | `#6fa9f0` |
+| `--color-blue-marin-info-9` | `#4291ed` |
+| `--color-blue-marin-info-10` | `#4484d0` |
+| `--color-blue-marin-info-11` | `#396dac` |
+| `--color-blue-marin-info-12` | `#1c3657` |
 
 ### Alpha (translucent) primitives
 
@@ -464,48 +243,48 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 
 ### Semantic Tokens
 
-| Token | Light | Dark | Mint |
+| Token | Light | Dark | Blue-marin |
 |-------|-------|-------|-------|
-| `--color-content-primary` | `#3b3335` | `#e8e3e3` | `#303735` |
-| `--color-content-secondary` | `#76696c` | `#d2cacb` | `#626f6b` |
-| `--color-content-tertiary` | `#706063` | `#766d6f` | `#61716b` |
-| `--color-content-quaternary` | `#7f6c70` | `#6a6062` | `#6c7f78` |
+| `--color-border-strong` | `#776c7f` | `#cfcad2` | `#6c7c7f` |
+| `--color-border-disabled` | `#ccc8cf` | `#2b2a2c` | `#c9cecf` |
+| `--color-border-brand` | `#9522e9` | `#e1beff` | `#22d3ee` |
+| `--color-border-brand-alt` | `#a964ee` | `#66616a` | `#71dcf0` |
+| `--color-border-error` | `#fb2e26` | `#ffbbb0` | `#e0594b` |
+| `--color-border-error-subtle` | `#ffc3b9` | `#562620` | `#f5c8c1` |
+| `--color-content-primary` | `#38343b` | `#e6e3e8` | `#313638` |
+| `--color-content-secondary` | `#716977` | `#cfcad2` | `#636e71` |
+| `--color-content-tertiary` | `#696070` | `#736e76` | `#616e71` |
+| `--color-content-quaternary` | `#776c7f` | `#66616a` | `#6c7c7f` |
 | `--color-content-inverse` | `#ffffff` | `#ffffff` | `#ffffff` |
-| `--color-content-disabled` | `#bdb4b6` | `#393535` | `#b4bdba` |
-| `--color-content-brand` | `#b93e56` | `#ffbac1` | `#017a55` |
-| `--color-content-brand-hover` | `#5f1f2b` | `#ffdcdf` | `#083d2a` |
-| `--color-content-error` | `#b94237` | `#ffbcaf` | `#af4c42` |
-| `--color-content-warning` | `#a45700` | `#ffbf85` | `#9c5c12` |
-| `--color-content-success` | `#137b42` | `#82df9f` | `#1f7a4b` |
-| `--color-background-primary` | `#ffffff` | `#130e0f` | `#ffffff` |
-| `--color-background-primary-hover` | `#f3f1f1` | `#161515` | `#f1f3f2` |
-| `--color-background-secondary` | `#f3f1f1` | `#161515` | `#f1f3f2` |
-| `--color-background-secondary-hover` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
-| `--color-background-tertiary` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
-| `--color-background-quaternary` | `#dcd7d8` | `#232222` | `#d8dcdb` |
-| `--color-background-active` | `#f3f1f1` | `#161515` | `#f1f3f2` |
-| `--color-background-disabled` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
-| `--color-background-disabled-subtle` | `#f3f1f1` | `#161515` | `#f1f3f2` |
-| `--color-background-overlay` | `#3b3335` | `#130e0f` | `#303735` |
-| `--color-background-brand-primary` | `#fef1f2` | `#1e1516` | `#f2faf6` |
-| `--color-background-brand-secondary` | `#fee4e6` | `#2d1b1d` | `#e6f6ee` |
-| `--color-background-brand-solid` | `#b93e56` | `#be3a55` | `#017a55` |
-| `--color-background-brand-solid-hover` | `#5f1f2b` | `#f63d68` | `#083d2a` |
-| `--color-background-error-primary` | `#fdf1ef` | `#1e1614` | `#fcf1f0` |
-| `--color-background-error-solid` | `#b94237` | `#bb3c32` | `#af4c42` |
-| `--color-background-warning-primary` | `#fdf5f0` | `#1e1915` | `#fcf6f0` |
-| `--color-background-warning-solid` | `#a45700` | `#9a5b26` | `#9c5c12` |
-| `--color-background-success-primary` | `#f0f8f2` | `#151a16` | `#f0f7f2` |
-| `--color-background-success-solid` | `#137b42` | `#277243` | `#1f7a4b` |
-| `--color-border-primary` | `#cfc8ca` | `#2c292a` | `#c9cfcd` |
-| `--color-border-secondary` | `#dcd7d8` | `#232222` | `#d8dcdb` |
-| `--color-border-tertiary` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
-| `--color-border-disabled` | `#cfc8ca` | `#2c292a` | `#c9cfcd` |
-| `--color-border-strong` | `#7f6c70` | `#d2cacb` | `#6c7f78` |
-| `--color-border-brand` | `#f63d68` | `#ffbac1` | `#34d399` |
-| `--color-border-brand-alt` | `#fb7287` | `#6a6062` | `#75dcae` |
-| `--color-border-error` | `#f24135` | `#ffbcaf` | `#e45447` |
-| `--color-border-error-subtle` | `#fdc5bc` | `#532822` | `#f7c7c0` |
+| `--color-content-disabled` | `#b9b4bd` | `#373538` | `#b4bcbd` |
+| `--color-content-brand` | `#8b4ac9` | `#e1beff` | `#007587` |
+| `--color-content-brand-hover` | `#462566` | `#f1ddff` | `#013b45` |
+| `--color-content-error` | `#be3a2f` | `#ffbbb0` | `#ab4f44` |
+| `--color-content-warning` | `#a45700` | `#ffbf85` | `#9a5d1e` |
+| `--color-content-success` | `#117b41` | `#82df9d` | `#28794d` |
+| `--color-background-primary` | `#ffffff` | `#110e13` | `#ffffff` |
+| `--color-background-primary-hover` | `#f2f1f3` | `#151515` | `#f1f2f3` |
+| `--color-background-secondary` | `#f2f1f3` | `#151515` | `#f1f2f3` |
+| `--color-background-secondary-hover` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
+| `--color-background-tertiary` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
+| `--color-background-quaternary` | `#dad7dc` | `#232223` | `#d8dbdc` |
+| `--color-background-active` | `#f2f1f3` | `#151515` | `#f1f2f3` |
+| `--color-background-disabled` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
+| `--color-background-disabled-subtle` | `#f2f1f3` | `#151515` | `#f1f2f3` |
+| `--color-background-overlay` | `#38343b` | `#110e13` | `#313638` |
+| `--color-background-brand-primary` | `#f4effb` | `#18141c` | `#f2fafc` |
+| `--color-background-brand-secondary` | `#ebe1f9` | `#20192a` | `#e6f6fa` |
+| `--color-background-brand-solid` | `#9522e9` | `#9522e9` | `#007587` |
+| `--color-background-brand-solid-hover` | `#822ac8` | `#9d4ce7` | `#013b45` |
+| `--color-background-error-primary` | `#fef0ee` | `#1e1514` | `#fbf1f0` |
+| `--color-background-error-solid` | `#be3a2f` | `#c23229` | `#ab4f44` |
+| `--color-background-warning-primary` | `#fdf5f0` | `#1e1815` | `#fcf6f0` |
+| `--color-background-warning-solid` | `#a45700` | `#9a5b26` | `#9a5d1e` |
+| `--color-background-success-primary` | `#f0f8f1` | `#151a16` | `#f0f7f2` |
+| `--color-background-success-solid` | `#117b41` | `#277243` | `#28794d` |
+| `--color-border-primary` | `#ccc8cf` | `#2b2a2c` | `#c9cecf` |
+| `--color-border-secondary` | `#dad7dc` | `#232223` | `#d8dbdc` |
+| `--color-border-tertiary` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
 
 ---
 
@@ -558,7 +337,7 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 | `text-label` | `text-sm · medium · body` | `text-xs · medium · body` |
 | `text-placeholder` | `text-md · regular · body` | `text-sm · regular · body` |
 | `text-caption` | `text-xs · regular · body` | `text-xs · regular · body` |
-| `text-button` | `text-md · semibold · body` | `text-sm · medium · body` |
+| `text-button` | `text-md · semibold · body` | `text-sm · semibold · body` |
 | `text-helper` | `text-xs · regular · body` | `text-xs · regular · body` |
 
 ---
@@ -608,11 +387,11 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 | Token | Value |
 |-------|-------|
 | `--radius-none` | `0px` |
-| `--radius-xs` | `2px` |
-| `--radius-sm` | `4px` |
-| `--radius-md` | `8px` |
-| `--radius-lg` | `12px` |
-| `--radius-xl` | `16px` |
+| `--radius-xs` | `4px` |
+| `--radius-sm` | `8px` |
+| `--radius-md` | `16px` |
+| `--radius-lg` | `24px` |
+| `--radius-xl` | `32px` |
 | `--radius-full` | `9999px` |
 
 ### Radius roles
@@ -620,7 +399,7 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 | Role | Aliases |
 |------|---------|
 | `--radius-control` | `var(--radius-xs)` |
-| `--radius-action` | `var(--radius-lg)` |
+| `--radius-action` | `var(--radius-md)` |
 | `--radius-container` | `var(--radius-lg)` |
 | `--radius-overlay` | `var(--radius-xl)` |
 | `--radius-pill` | `var(--radius-full)` |
@@ -720,8 +499,8 @@ Line weight — not paint. Color stays on `border.*`.
 
 | Token | Type | Light | Dark |
 |-------|------|-------|------|
-| `--gradient-brand-cover` | linear | `linear-gradient(135deg, #f63d68 0%, #5f1f2b 100%)` | `linear-gradient(135deg, #f63d68 0%, #ffdcdf 100%)` |
-| `--gradient-aurora` | linear | `linear-gradient(120deg, #fe929f 0%, #f63d68 50%, #b93e56 100%)` | `linear-gradient(120deg, #963546 0%, #f63d68 50%, #ffbac1 100%)` |
+| `--gradient-brand-cover` | linear | `linear-gradient(135deg, #9522e9 0%, #462566 100%)` | `linear-gradient(135deg, #9522e9 0%, #f1ddff 100%)` |
+| `--gradient-aurora` | linear | `linear-gradient(120deg, #b887f1 0%, #9522e9 50%, #8b4ac9 100%)` | `linear-gradient(120deg, #5d2a8c 0%, #9522e9 50%, #e1beff 100%)` |
 | `--gradient-moss-glow` | radial | `radial-gradient(circle at 30% 30%, #66c61c 0%, #16653a 100%)` | — |
 
 Assigned surfaces: card cover → `--gradient-brand-cover`, avatars → `--gradient-aurora`.
@@ -772,7 +551,7 @@ When generating UI for this product, use icons from https://github.com/untitledu
 }
 ```
 
-Dark mode applies via the `.dark` class on `<html>`; extra themes (Mint) via `data-theme="<name>"`.
+Dark mode applies via the `.dark` class on `<html>`; extra themes (Blue-marin) via `data-theme="<name>"`.
 
 **In Figma** — install the Escala DS plugin and import `tokens.json` (or point its Live Sync tab at your published endpoint). Primitives, semantic themes and typography land as Figma Variables.
 
