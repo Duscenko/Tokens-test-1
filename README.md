@@ -5,7 +5,7 @@
 ## Overview
 
 - **Primary color:** `#f63d68`
-- **Themes:** Light, Dark, Blue-dark, Pink
+- **Themes:** Light, Dark, Mint
 - **Semantic architecture:** Categorical Semantic
 - **Panel background:** Solid
 - **Heading font:** Inter
@@ -341,50 +341,171 @@
 | `--color-orange-3-11` | `#9f42b3` |
 | `--color-orange-3-12` | `#51215c` |
 
+### Custom — Mint
+
+| Token | Value |
+|-------|-------|
+| `--color-mint-1` | `#fffdfd` |
+| `--color-mint-2` | `#f2faf6` |
+| `--color-mint-3` | `#e6f6ee` |
+| `--color-mint-4` | `#d9f2e5` |
+| `--color-mint-5` | `#c9eedb` |
+| `--color-mint-6` | `#b1e8cd` |
+| `--color-mint-7` | `#97e3bf` |
+| `--color-mint-8` | `#75dcae` |
+| `--color-mint-9` | `#34d399` |
+| `--color-mint-10` | `#46c090` |
+| `--color-mint-11` | `#017a55` |
+| `--color-mint-12` | `#083d2a` |
+
+### Custom — Mint Gray
+
+| Token | Value |
+|-------|-------|
+| `--color-mint-gray-1` | `#fffdfd` |
+| `--color-mint-gray-2` | `#f1f3f2` |
+| `--color-mint-gray-3` | `#e5e8e7` |
+| `--color-mint-gray-4` | `#d8dcdb` |
+| `--color-mint-gray-5` | `#c9cfcd` |
+| `--color-mint-gray-6` | `#b4bdba` |
+| `--color-mint-gray-7` | `#a0aca7` |
+| `--color-mint-gray-8` | `#899893` |
+| `--color-mint-gray-9` | `#6c7f78` |
+| `--color-mint-gray-10` | `#61716b` |
+| `--color-mint-gray-11` | `#626f6b` |
+| `--color-mint-gray-12` | `#303735` |
+
+### Custom — Mint Error
+
+| Token | Value |
+|-------|-------|
+| `--color-mint-error-1` | `#fffdfd` |
+| `--color-mint-error-2` | `#fcf1f0` |
+| `--color-mint-error-3` | `#fae5e2` |
+| `--color-mint-error-4` | `#f9d7d2` |
+| `--color-mint-error-5` | `#f7c7c0` |
+| `--color-mint-error-6` | `#f4b1a7` |
+| `--color-mint-error-7` | `#f1998d` |
+| `--color-mint-error-8` | `#ec7d70` |
+| `--color-mint-error-9` | `#e45447` |
+| `--color-mint-error-10` | `#c95246` |
+| `--color-mint-error-11` | `#af4c42` |
+| `--color-mint-error-12` | `#592621` |
+
+### Custom — Mint Warning
+
+| Token | Value |
+|-------|-------|
+| `--color-mint-warning-1` | `#fffdfd` |
+| `--color-mint-warning-2` | `#fcf6f0` |
+| `--color-mint-warning-3` | `#fbeee2` |
+| `--color-mint-warning-4` | `#fae5d2` |
+| `--color-mint-warning-5` | `#fadac0` |
+| `--color-mint-warning-6` | `#f9cca5` |
+| `--color-mint-warning-7` | `#f8bd89` |
+| `--color-mint-warning-8` | `#f6ab65` |
+| `--color-mint-warning-9` | `#f49223` |
+| `--color-mint-warning-10` | `#db8936` |
+| `--color-mint-warning-11` | `#9c5c12` |
+| `--color-mint-warning-12` | `#4f2d0a` |
+
+### Custom — Mint Success
+
+| Token | Value |
+|-------|-------|
+| `--color-mint-success-1` | `#fffdfd` |
+| `--color-mint-success-2` | `#f0f7f2` |
+| `--color-mint-success-3` | `#e2f1e7` |
+| `--color-mint-success-4` | `#d2eada` |
+| `--color-mint-success-5` | `#c0e3cb` |
+| `--color-mint-success-6` | `#a6d8b7` |
+| `--color-mint-success-7` | `#8acea2` |
+| `--color-mint-success-8` | `#66c28a` |
+| `--color-mint-success-9` | `#1fb26b` |
+| `--color-mint-success-10` | `#32a065` |
+| `--color-mint-success-11` | `#1f7a4b` |
+| `--color-mint-success-12` | `#103d25` |
+
+### Custom — Mint Info
+
+| Token | Value |
+|-------|-------|
+| `--color-mint-info-1` | `#fffdfd` |
+| `--color-mint-info-2` | `#f0f5fc` |
+| `--color-mint-info-3` | `#e2edfa` |
+| `--color-mint-info-4` | `#d2e3f9` |
+| `--color-mint-info-5` | `#bfd9f8` |
+| `--color-mint-info-6` | `#a5caf6` |
+| `--color-mint-info-7` | `#8abbf5` |
+| `--color-mint-info-8` | `#6aa9f4` |
+| `--color-mint-info-9` | `#3a91f2` |
+| `--color-mint-info-10` | `#3e84d5` |
+| `--color-mint-info-11` | `#346daf` |
+| `--color-mint-info-12` | `#193659` |
+
+### Alpha (translucent) primitives
+
+Two different contracts, both shipped:
+
+- **`--color-<family>-a-<tone>`** — the alpha TWIN of a family. Solved so that
+  tone _N_ reproduces the solid tone _N_ when composited over its own page.
+  Use it for a tint that has to survive on top of an unknown surface (a status
+  banner inside a card, a selected row, a ghost-button wash). The opacity is a
+  RESULT, not a setting, so the ladder is not monotonic — `-a-1` is fully
+  transparent by construction (tone 1 IS the page).
+- **`--color-black-a-<tone>` / `--color-white-a-<tone>`** — a FIXED opacity
+  ladder (5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 95 %), agnostic to any
+  page. Use it for scrims, neutral ghost washes and the dark-mode elevation
+  rim, where the ink is genuinely black or white and the opacity IS the design
+  decision.
+
+Sixteen semantic roles resolve through these — see the Semantic Tokens table
+for which. Values there may therefore be 8-digit `#rrggbbaa`.
+
 ### Semantic Tokens
 
-| Token | Light | Dark | Blue-dark | Pink |
-|-------|-------|-------|-------|-------|
-| `--color-border-strong` | `#7f6c70` | `#6a6062` | `#c7ccd6` | `#7f786c` |
-| `--color-border-disabled` | `#cfc8ca` | `#2c292a` | `#2d2f32` | `#cfcdc9` |
-| `--color-border-brand` | `#f63d68` | `#ffbac1` | `#5e66af` | `#d444f1` |
-| `--color-border-brand-alt` | `#fb7287` | `#6a6062` | `#6c727f` | `#de77f3` |
-| `--color-border-error` | `#f24135` | `#ffbcaf` | `#ffbcb0` | `#e75144` |
-| `--color-border-error-subtle` | `#fdc5bc` | `#532822` | `#542822` | `#f8c7bf` |
-| `--color-content-primary` | `#3b3335` | `#e8e3e3` | `#e2e4eb` | `#383531` |
-| `--color-content-secondary` | `#76696c` | `#d2cacb` | `#c7ccd6` | `#706c63` |
-| `--color-content-tertiary` | `#706063` | `#766d6f` | `#7a7f8a` | `#716b61` |
-| `--color-content-quaternary` | `#7f6c70` | `#6a6062` | `#6c727f` | `#7f786c` |
-| `--color-content-inverse` | `#ffffff` | `#ffffff` | `#ffffff` | `#ffffff` |
-| `--color-content-disabled` | `#bdb4b6` | `#393535` | `#3a3c42` | `#bdbab4` |
-| `--color-content-brand` | `#b93e56` | `#ffbac1` | `#5e66af` | `#9f42b3` |
-| `--color-content-brand-hover` | `#5f1f2b` | `#ffdcdf` | `#2e3258` | `#51215c` |
-| `--color-content-error` | `#b94237` | `#ffbcaf` | `#ffbcb0` | `#b04b40` |
-| `--color-content-warning` | `#a45700` | `#ffbf85` | `#ffbf85` | `#9e5b09` |
-| `--color-content-success` | `#137b42` | `#82df9f` | `#82df9f` | `#197a49` |
-| `--color-background-primary` | `#ffffff` | `#130e0f` | `#130e0f` | `#ffffff` |
-| `--color-background-primary-hover` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
-| `--color-background-secondary` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
-| `--color-background-secondary-hover` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
-| `--color-background-tertiary` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
-| `--color-background-quaternary` | `#dcd7d8` | `#232222` | `#242528` | `#dcdbd8` |
-| `--color-background-active` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
-| `--color-background-disabled` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
-| `--color-background-disabled-subtle` | `#f3f1f1` | `#161515` | `#161617` | `#f3f2f1` |
-| `--color-background-overlay` | `#3b3335` | `#130e0f` | `#130e0f` | `#383531` |
-| `--color-background-brand-primary` | `#fef1f2` | `#1e1516` | `#f3f5fc` | `#faf1fc` |
-| `--color-background-brand-secondary` | `#fee4e6` | `#2d1b1d` | `#e9ecfb` | `#f6e5fa` |
-| `--color-background-brand-solid` | `#b93e56` | `#be3a55` | `#5e66af` | `#9f42b3` |
-| `--color-background-brand-solid-hover` | `#5f1f2b` | `#f63d68` | `#2e3258` | `#51215c` |
-| `--color-background-error-primary` | `#fdf1ef` | `#1e1614` | `#1e1514` | `#fcf1ef` |
-| `--color-background-error-solid` | `#b94237` | `#bb3c32` | `#bc3b31` | `#b04b40` |
-| `--color-background-warning-primary` | `#fdf5f0` | `#1e1915` | `#1e1915` | `#fdf6f0` |
-| `--color-background-warning-solid` | `#a45700` | `#9a5b26` | `#9a5b26` | `#9e5b09` |
-| `--color-background-success-primary` | `#f0f8f2` | `#151a16` | `#151a16` | `#f0f7f2` |
-| `--color-background-success-solid` | `#137b42` | `#277243` | `#277243` | `#197a49` |
-| `--color-border-primary` | `#cfc8ca` | `#2c292a` | `#2d2f32` | `#cfcdc9` |
-| `--color-border-secondary` | `#dcd7d8` | `#232222` | `#242528` | `#dcdbd8` |
-| `--color-border-tertiary` | `#e8e5e6` | `#1c1b1b` | `#1d1d1f` | `#e8e7e5` |
+| Token | Light | Dark | Mint |
+|-------|-------|-------|-------|
+| `--color-content-primary` | `#3b3335` | `#e8e3e3` | `#303735` |
+| `--color-content-secondary` | `#76696c` | `#d2cacb` | `#626f6b` |
+| `--color-content-tertiary` | `#706063` | `#766d6f` | `#61716b` |
+| `--color-content-quaternary` | `#7f6c70` | `#6a6062` | `#6c7f78` |
+| `--color-content-inverse` | `#ffffff` | `#ffffff` | `#ffffff` |
+| `--color-content-disabled` | `#bdb4b6` | `#393535` | `#b4bdba` |
+| `--color-content-brand` | `#b93e56` | `#ffbac1` | `#017a55` |
+| `--color-content-brand-hover` | `#5f1f2b` | `#ffdcdf` | `#083d2a` |
+| `--color-content-error` | `#b94237` | `#ffbcaf` | `#af4c42` |
+| `--color-content-warning` | `#a45700` | `#ffbf85` | `#9c5c12` |
+| `--color-content-success` | `#137b42` | `#82df9f` | `#1f7a4b` |
+| `--color-background-primary` | `#ffffff` | `#130e0f` | `#ffffff` |
+| `--color-background-primary-hover` | `#f3f1f1` | `#161515` | `#f1f3f2` |
+| `--color-background-secondary` | `#f3f1f1` | `#161515` | `#f1f3f2` |
+| `--color-background-secondary-hover` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
+| `--color-background-tertiary` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
+| `--color-background-quaternary` | `#dcd7d8` | `#232222` | `#d8dcdb` |
+| `--color-background-active` | `#f3f1f1` | `#161515` | `#f1f3f2` |
+| `--color-background-disabled` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
+| `--color-background-disabled-subtle` | `#f3f1f1` | `#161515` | `#f1f3f2` |
+| `--color-background-overlay` | `#3b3335` | `#130e0f` | `#303735` |
+| `--color-background-brand-primary` | `#fef1f2` | `#1e1516` | `#f2faf6` |
+| `--color-background-brand-secondary` | `#fee4e6` | `#2d1b1d` | `#e6f6ee` |
+| `--color-background-brand-solid` | `#b93e56` | `#be3a55` | `#017a55` |
+| `--color-background-brand-solid-hover` | `#5f1f2b` | `#f63d68` | `#083d2a` |
+| `--color-background-error-primary` | `#fdf1ef` | `#1e1614` | `#fcf1f0` |
+| `--color-background-error-solid` | `#b94237` | `#bb3c32` | `#af4c42` |
+| `--color-background-warning-primary` | `#fdf5f0` | `#1e1915` | `#fcf6f0` |
+| `--color-background-warning-solid` | `#a45700` | `#9a5b26` | `#9c5c12` |
+| `--color-background-success-primary` | `#f0f8f2` | `#151a16` | `#f0f7f2` |
+| `--color-background-success-solid` | `#137b42` | `#277243` | `#1f7a4b` |
+| `--color-border-primary` | `#cfc8ca` | `#2c292a` | `#c9cfcd` |
+| `--color-border-secondary` | `#dcd7d8` | `#232222` | `#d8dcdb` |
+| `--color-border-tertiary` | `#e8e5e6` | `#1c1b1b` | `#e5e8e7` |
+| `--color-border-disabled` | `#cfc8ca` | `#2c292a` | `#c9cfcd` |
+| `--color-border-strong` | `#7f6c70` | `#d2cacb` | `#6c7f78` |
+| `--color-border-brand` | `#f63d68` | `#ffbac1` | `#34d399` |
+| `--color-border-brand-alt` | `#fb7287` | `#6a6062` | `#75dcae` |
+| `--color-border-error` | `#f24135` | `#ffbcaf` | `#e45447` |
+| `--color-border-error-subtle` | `#fdc5bc` | `#532822` | `#f7c7c0` |
 
 ---
 
@@ -651,7 +772,7 @@ When generating UI for this product, use icons from https://github.com/untitledu
 }
 ```
 
-Dark mode applies via the `.dark` class on `<html>`; extra themes (Blue-dark, Pink) via `data-theme="<name>"`.
+Dark mode applies via the `.dark` class on `<html>`; extra themes (Mint) via `data-theme="<name>"`.
 
 **In Figma** — install the Escala DS plugin and import `tokens.json` (or point its Live Sync tab at your published endpoint). Primitives, semantic themes and typography land as Figma Variables.
 
