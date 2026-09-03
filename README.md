@@ -5,11 +5,11 @@
 ## Overview
 
 - **Primary color:** `#9522e9`
-- **Themes:** Light, Dark, Blue-marin
+- **Themes:** Dark, Core--minimalist
 - **Semantic architecture:** Categorical Semantic
 - **Panel background:** Solid
-- **Heading font:** Inter
-- **Body font:** Inter
+- **Heading font:** Poppins
+- **Body font:** Poppins
 - **Icons:** Untitled UI Icons — https://github.com/untitleduico/icons
 - **Components:** Button, Input, Select, Checkbox, Toggle, Badge, Card, Avatar, Modal, Tooltip, Divider, Toast, Tabs
 - **Repository:** [Duscenko/Tokens-test-1](https://github.com/Duscenko/Tokens-test-1)
@@ -22,14 +22,14 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-accent-1` | `#fefdff` |
+| `--color-accent-1` | `#fdfdff` |
 | `--color-accent-2` | `#f4effb` |
-| `--color-accent-3` | `#ebe1f9` |
+| `--color-accent-3` | `#eae0f9` |
 | `--color-accent-4` | `#e0d0f7` |
 | `--color-accent-5` | `#d5bdf5` |
-| `--color-accent-6` | `#c7a3f3` |
+| `--color-accent-6` | `#c6a3f3` |
 | `--color-accent-7` | `#b887f1` |
-| `--color-accent-8` | `#a964ee` |
+| `--color-accent-8` | `#a864ee` |
 | `--color-accent-9` | `#9522e9` |
 | `--color-accent-10` | `#822ac8` |
 | `--color-accent-11` | `#8b4ac9` |
@@ -39,24 +39,24 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-neutral-1` | `#fefdff` |
-| `--color-neutral-2` | `#f2f1f3` |
-| `--color-neutral-3` | `#e7e5e8` |
-| `--color-neutral-4` | `#dad7dc` |
-| `--color-neutral-5` | `#ccc8cf` |
-| `--color-neutral-6` | `#b9b4bd` |
-| `--color-neutral-7` | `#a69fab` |
-| `--color-neutral-8` | `#928998` |
-| `--color-neutral-9` | `#776c7f` |
-| `--color-neutral-10` | `#696070` |
-| `--color-neutral-11` | `#716977` |
-| `--color-neutral-12` | `#38343b` |
+| `--color-neutral-1` | `#fdfdff` |
+| `--color-neutral-2` | `#f6f5f6` |
+| `--color-neutral-3` | `#eeeeef` |
+| `--color-neutral-4` | `#e6e5e8` |
+| `--color-neutral-5` | `#dcdbdf` |
+| `--color-neutral-6` | `#d0ced4` |
+| `--color-neutral-7` | `#c3c1c8` |
+| `--color-neutral-8` | `#b4b2bc` |
+| `--color-neutral-9` | `#a29fab` |
+| `--color-neutral-10` | `#94929c` |
+| `--color-neutral-11` | `#6d6a73` |
+| `--color-neutral-12` | `#363439` |
 
 ### Primitive Scale — Error
 
 | Token | Value |
 |-------|-------|
-| `--color-error-1` | `#fefdff` |
+| `--color-error-1` | `#fdfdff` |
 | `--color-error-2` | `#fef0ee` |
 | `--color-error-3` | `#ffe3df` |
 | `--color-error-4` | `#ffd4cd` |
@@ -73,26 +73,26 @@
 
 | Token | Value |
 |-------|-------|
-| `--color-warning-1` | `#fefdff` |
-| `--color-warning-2` | `#fdf5f0` |
+| `--color-warning-1` | `#fdfdff` |
+| `--color-warning-2` | `#fdf5ef` |
 | `--color-warning-3` | `#fdede1` |
-| `--color-warning-4` | `#fee3d1` |
+| `--color-warning-4` | `#fde3d1` |
 | `--color-warning-5` | `#fed8be` |
 | `--color-warning-6` | `#ffc9a2` |
 | `--color-warning-7` | `#ffb984` |
 | `--color-warning-8` | `#ffa55e` |
 | `--color-warning-9` | `#ff8a00` |
 | `--color-warning-10` | `#e4832b` |
-| `--color-warning-11` | `#a45700` |
-| `--color-warning-12` | `#542b06` |
+| `--color-warning-11` | `#a45600` |
+| `--color-warning-12` | `#532b06` |
 
 ### Primitive Scale — Success
 
 | Token | Value |
 |-------|-------|
-| `--color-success-1` | `#fefdff` |
-| `--color-success-2` | `#f0f8f1` |
-| `--color-success-3` | `#e2f2e6` |
+| `--color-success-1` | `#fdfdff` |
+| `--color-success-2` | `#f0f7f1` |
+| `--color-success-3` | `#e2f2e5` |
 | `--color-success-4` | `#d2ebd8` |
 | `--color-success-5` | `#bfe4c8` |
 | `--color-success-6` | `#a4dbb2` |
@@ -100,127 +100,93 @@
 | `--color-success-8` | `#62c682` |
 | `--color-success-9` | `#00b75f` |
 | `--color-success-10` | `#29a55c` |
-| `--color-success-11` | `#117b41` |
-| `--color-success-12` | `#0c3e20` |
+| `--color-success-11` | `#0f7b40` |
+| `--color-success-12` | `#0b3d1f` |
 
 ### Primitive Scale — Info
 
 | Token | Value |
 |-------|-------|
-| `--color-info-1` | `#fefdff` |
-| `--color-info-2` | `#eef5fd` |
+| `--color-info-1` | `#fdfdff` |
+| `--color-info-2` | `#eef5fc` |
 | `--color-info-3` | `#dfecfc` |
-| `--color-info-4` | `#cee3fc` |
-| `--color-info-5` | `#bad8fc` |
-| `--color-info-6` | `#9dc9fd` |
-| `--color-info-7` | `#7ebafe` |
+| `--color-info-4` | `#cde3fc` |
+| `--color-info-5` | `#b9d8fc` |
+| `--color-info-6` | `#9cc9fd` |
+| `--color-info-7` | `#7ebafd` |
 | `--color-info-8` | `#58a8fe` |
 | `--color-info-9` | `#008eff` |
 | `--color-info-10` | `#2081df` |
-| `--color-info-11` | `#206db9` |
+| `--color-info-11` | `#206cb9` |
 | `--color-info-12` | `#10365e` |
 
-### Custom — Blue Marin
+### Custom — Core  Minimalist
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-marin-1` | `#fefdff` |
-| `--color-blue-marin-2` | `#f2fafc` |
-| `--color-blue-marin-3` | `#e6f6fa` |
-| `--color-blue-marin-4` | `#d9f3f8` |
-| `--color-blue-marin-5` | `#c8eff6` |
-| `--color-blue-marin-6` | `#b0e9f4` |
-| `--color-blue-marin-7` | `#95e3f2` |
-| `--color-blue-marin-8` | `#71dcf0` |
-| `--color-blue-marin-9` | `#22d3ee` |
-| `--color-blue-marin-10` | `#40c2d8` |
-| `--color-blue-marin-11` | `#007587` |
-| `--color-blue-marin-12` | `#013b45` |
+| `--color-core--minimalist-1` | `#fdfdfe` |
+| `--color-core--minimalist-2` | `#edf3fc` |
+| `--color-core--minimalist-3` | `#dde8fc` |
+| `--color-core--minimalist-4` | `#cbdcfc` |
+| `--color-core--minimalist-5` | `#b6cffc` |
+| `--color-core--minimalist-6` | `#99bdfd` |
+| `--color-core--minimalist-7` | `#7ca9fe` |
+| `--color-core--minimalist-8` | `#5a92ff` |
+| `--color-core--minimalist-9` | `#2970ff` |
+| `--color-core--minimalist-10` | `#2c67dc` |
+| `--color-core--minimalist-11` | `#3567c9` |
+| `--color-core--minimalist-12` | `#1a3366` |
 
-### Custom — Blue Marin Gray
-
-| Token | Value |
-|-------|-------|
-| `--color-blue-marin-gray-1` | `#fefdff` |
-| `--color-blue-marin-gray-2` | `#f1f2f3` |
-| `--color-blue-marin-gray-3` | `#e5e8e8` |
-| `--color-blue-marin-gray-4` | `#d8dbdc` |
-| `--color-blue-marin-gray-5` | `#c9cecf` |
-| `--color-blue-marin-gray-6` | `#b4bcbd` |
-| `--color-blue-marin-gray-7` | `#a0aaac` |
-| `--color-blue-marin-gray-8` | `#899698` |
-| `--color-blue-marin-gray-9` | `#6c7c7f` |
-| `--color-blue-marin-gray-10` | `#616e71` |
-| `--color-blue-marin-gray-11` | `#636e71` |
-| `--color-blue-marin-gray-12` | `#313638` |
-
-### Custom — Blue Marin Error
+### Custom — Core  Minimalist Gray
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-marin-error-1` | `#fefdff` |
-| `--color-blue-marin-error-2` | `#fbf1f0` |
-| `--color-blue-marin-error-3` | `#f9e5e2` |
-| `--color-blue-marin-error-4` | `#f7d8d2` |
-| `--color-blue-marin-error-5` | `#f5c8c1` |
-| `--color-blue-marin-error-6` | `#f2b2a8` |
-| `--color-blue-marin-error-7` | `#ee9b8f` |
-| `--color-blue-marin-error-8` | `#e98072` |
-| `--color-blue-marin-error-9` | `#e0594b` |
-| `--color-blue-marin-error-10` | `#c65649` |
-| `--color-blue-marin-error-11` | `#ab4f44` |
-| `--color-blue-marin-error-12` | `#572722` |
+| `--color-core--minimalist-gray-1` | `#fdfdfe` |
+| `--color-core--minimalist-gray-2` | `#f5f6f6` |
+| `--color-core--minimalist-gray-3` | `#eeeeef` |
+| `--color-core--minimalist-gray-4` | `#e5e6e8` |
+| `--color-core--minimalist-gray-5` | `#dbdddf` |
+| `--color-core--minimalist-gray-6` | `#ced0d4` |
+| `--color-core--minimalist-gray-7` | `#c1c3c8` |
+| `--color-core--minimalist-gray-8` | `#b2b5bc` |
+| `--color-core--minimalist-gray-9` | `#9fa3ab` |
+| `--color-core--minimalist-gray-10` | `#92959c` |
+| `--color-core--minimalist-gray-11` | `#696c72` |
+| `--color-core--minimalist-gray-12` | `#343538` |
 
-### Custom — Blue Marin Warning
-
-| Token | Value |
-|-------|-------|
-| `--color-blue-marin-warning-1` | `#fefdff` |
-| `--color-blue-marin-warning-2` | `#fcf6f0` |
-| `--color-blue-marin-warning-3` | `#fbeee3` |
-| `--color-blue-marin-warning-4` | `#f9e5d4` |
-| `--color-blue-marin-warning-5` | `#f8dbc2` |
-| `--color-blue-marin-warning-6` | `#f7cca8` |
-| `--color-blue-marin-warning-7` | `#f5bd8d` |
-| `--color-blue-marin-warning-8` | `#f3ac6c` |
-| `--color-blue-marin-warning-9` | `#f09434` |
-| `--color-blue-marin-warning-10` | `#d88b40` |
-| `--color-blue-marin-warning-11` | `#9a5d1e` |
-| `--color-blue-marin-warning-12` | `#4e2e0f` |
-
-### Custom — Blue Marin Success
+### Custom — Core  Minimalist Error
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-marin-success-1` | `#fefdff` |
-| `--color-blue-marin-success-2` | `#f0f7f2` |
-| `--color-blue-marin-success-3` | `#e3f0e7` |
-| `--color-blue-marin-success-4` | `#d3e9da` |
-| `--color-blue-marin-success-5` | `#c2e2cc` |
-| `--color-blue-marin-success-6` | `#a8d7b8` |
-| `--color-blue-marin-success-7` | `#8dcca4` |
-| `--color-blue-marin-success-8` | `#6bc08d` |
-| `--color-blue-marin-success-9` | `#31b06e` |
-| `--color-blue-marin-success-10` | `#3b9e67` |
-| `--color-blue-marin-success-11` | `#28794d` |
-| `--color-blue-marin-success-12` | `#143d26` |
+| `--color-core--minimalist-error-1` | `#fdfdfe` |
+| `--color-core--minimalist-error-2` | `#fdf0ee` |
+| `--color-core--minimalist-error-3` | `#fde4e0` |
+| `--color-core--minimalist-error-4` | `#fdd5cf` |
+| `--color-core--minimalist-error-5` | `#fdc4bb` |
+| `--color-core--minimalist-error-6` | `#fdaca0` |
+| `--color-core--minimalist-error-7` | `#fb9385` |
+| `--color-core--minimalist-error-8` | `#f97364` |
+| `--color-core--minimalist-error-9` | `#f33f34` |
+| `--color-core--minimalist-error-10` | `#d64338` |
+| `--color-core--minimalist-error-11` | `#b84136` |
+| `--color-core--minimalist-error-12` | `#5f211b` |
 
-### Custom — Blue Marin Info
+### Custom — Core  Minimalist Info
 
 | Token | Value |
 |-------|-------|
-| `--color-blue-marin-info-1` | `#fefdff` |
-| `--color-blue-marin-info-2` | `#f0f5fb` |
-| `--color-blue-marin-info-3` | `#e2ecf9` |
-| `--color-blue-marin-info-4` | `#d2e3f8` |
-| `--color-blue-marin-info-5` | `#c1d8f6` |
-| `--color-blue-marin-info-6` | `#a7c9f4` |
-| `--color-blue-marin-info-7` | `#8dbaf2` |
-| `--color-blue-marin-info-8` | `#6fa9f0` |
-| `--color-blue-marin-info-9` | `#4291ed` |
-| `--color-blue-marin-info-10` | `#4484d0` |
-| `--color-blue-marin-info-11` | `#396dac` |
-| `--color-blue-marin-info-12` | `#1c3657` |
+| `--color-core--minimalist-info-1` | `#fdfdfe` |
+| `--color-core--minimalist-info-2` | `#eef5fc` |
+| `--color-core--minimalist-info-3` | `#dfecfc` |
+| `--color-core--minimalist-info-4` | `#cee3fc` |
+| `--color-core--minimalist-info-5` | `#bad8fc` |
+| `--color-core--minimalist-info-6` | `#9dc9fd` |
+| `--color-core--minimalist-info-7` | `#7fbafd` |
+| `--color-core--minimalist-info-8` | `#5aa8fe` |
+| `--color-core--minimalist-info-9` | `#0e8eff` |
+| `--color-core--minimalist-info-10` | `#2581df` |
+| `--color-core--minimalist-info-11` | `#226cb9` |
+| `--color-core--minimalist-info-12` | `#12365e` |
 
 ### Alpha (translucent) primitives
 
@@ -243,48 +209,9 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 
 ### Semantic Tokens
 
-| Token | Light | Dark | Blue-marin |
-|-------|-------|-------|-------|
-| `--color-border-strong` | `#776c7f` | `#cfcad2` | `#6c7c7f` |
-| `--color-border-disabled` | `#ccc8cf` | `#2b2a2c` | `#c9cecf` |
-| `--color-border-brand` | `#9522e9` | `#e1beff` | `#22d3ee` |
-| `--color-border-brand-alt` | `#a964ee` | `#66616a` | `#71dcf0` |
-| `--color-border-error` | `#fb2e26` | `#ffbbb0` | `#e0594b` |
-| `--color-border-error-subtle` | `#ffc3b9` | `#562620` | `#f5c8c1` |
-| `--color-content-primary` | `#38343b` | `#e6e3e8` | `#313638` |
-| `--color-content-secondary` | `#716977` | `#cfcad2` | `#636e71` |
-| `--color-content-tertiary` | `#696070` | `#736e76` | `#616e71` |
-| `--color-content-quaternary` | `#776c7f` | `#66616a` | `#6c7c7f` |
-| `--color-content-inverse` | `#ffffff` | `#ffffff` | `#ffffff` |
-| `--color-content-disabled` | `#b9b4bd` | `#373538` | `#b4bcbd` |
-| `--color-content-brand` | `#8b4ac9` | `#e1beff` | `#007587` |
-| `--color-content-brand-hover` | `#462566` | `#f1ddff` | `#013b45` |
-| `--color-content-error` | `#be3a2f` | `#ffbbb0` | `#ab4f44` |
-| `--color-content-warning` | `#a45700` | `#ffbf85` | `#9a5d1e` |
-| `--color-content-success` | `#117b41` | `#82df9d` | `#28794d` |
-| `--color-background-primary` | `#ffffff` | `#110e13` | `#ffffff` |
-| `--color-background-primary-hover` | `#f2f1f3` | `#151515` | `#f1f2f3` |
-| `--color-background-secondary` | `#f2f1f3` | `#151515` | `#f1f2f3` |
-| `--color-background-secondary-hover` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
-| `--color-background-tertiary` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
-| `--color-background-quaternary` | `#dad7dc` | `#232223` | `#d8dbdc` |
-| `--color-background-active` | `#f2f1f3` | `#151515` | `#f1f2f3` |
-| `--color-background-disabled` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
-| `--color-background-disabled-subtle` | `#f2f1f3` | `#151515` | `#f1f2f3` |
-| `--color-background-overlay` | `#38343b` | `#110e13` | `#313638` |
-| `--color-background-brand-primary` | `#f4effb` | `#18141c` | `#f2fafc` |
-| `--color-background-brand-secondary` | `#ebe1f9` | `#20192a` | `#e6f6fa` |
-| `--color-background-brand-solid` | `#9522e9` | `#9522e9` | `#007587` |
-| `--color-background-brand-solid-hover` | `#822ac8` | `#9d4ce7` | `#013b45` |
-| `--color-background-error-primary` | `#fef0ee` | `#1e1514` | `#fbf1f0` |
-| `--color-background-error-solid` | `#be3a2f` | `#c23229` | `#ab4f44` |
-| `--color-background-warning-primary` | `#fdf5f0` | `#1e1815` | `#fcf6f0` |
-| `--color-background-warning-solid` | `#a45700` | `#9a5b26` | `#9a5d1e` |
-| `--color-background-success-primary` | `#f0f8f1` | `#151a16` | `#f0f7f2` |
-| `--color-background-success-solid` | `#117b41` | `#277243` | `#28794d` |
-| `--color-border-primary` | `#ccc8cf` | `#2b2a2c` | `#c9cecf` |
-| `--color-border-secondary` | `#dad7dc` | `#232223` | `#d8dbdc` |
-| `--color-border-tertiary` | `#e7e5e8` | `#1b1b1c` | `#e5e8e8` |
+| Token | Dark | Core--minimalist |
+|-------|-------|-------|
+
 
 ---
 
@@ -292,8 +219,8 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 
 | Token | Value |
 |-------|-------|
-| `--font-family-heading` | `'Inter', sans-serif` |
-| `--font-family-body` | `'Inter', sans-serif` |
+| `--font-family-heading` | `'Poppins', sans-serif` |
+| `--font-family-body` | `'Poppins', sans-serif` |
 | `--font-size-text-xs` | `12px` |
 | `--font-size-text-sm` | `14px` |
 | `--font-size-text-md` | `16px` |
@@ -387,20 +314,23 @@ for which. Values there may therefore be 8-digit `#rrggbbaa`.
 | Token | Value |
 |-------|-------|
 | `--radius-none` | `0px` |
-| `--radius-xs` | `4px` |
-| `--radius-sm` | `8px` |
-| `--radius-md` | `16px` |
-| `--radius-lg` | `24px` |
-| `--radius-xl` | `32px` |
 | `--radius-full` | `9999px` |
+| `--radius-xs` | `8px` |
+| `--radius-sm` | `12px` |
+| `--radius-md` | `20px` |
+| `--radius-lg` | `32px` |
+| `--radius-xl` | `40px` |
+| `--radius-2xl` | `64px` |
+| `--radius-3xl` | `96px` |
+| `--radius-4xl` | `128px` |
 
 ### Radius roles
 
 | Role | Aliases |
 |------|---------|
 | `--radius-control` | `var(--radius-xs)` |
-| `--radius-action` | `var(--radius-md)` |
-| `--radius-container` | `var(--radius-lg)` |
+| `--radius-action` | `var(--radius-sm)` |
+| `--radius-container` | `var(--radius-sm)` |
 | `--radius-overlay` | `var(--radius-xl)` |
 | `--radius-pill` | `var(--radius-full)` |
 
@@ -575,7 +505,7 @@ When generating UI for this product, use icons from https://github.com/untitledu
 }
 ```
 
-Dark mode applies via the `.dark` class on `<html>`; extra themes (Blue-marin) via `data-theme="<name>"`.
+Dark mode applies via the `.dark` class on `<html>`.
 
 **In Figma** — install the Escala DS plugin and import `tokens.json` (or point its Live Sync tab at your published endpoint). Primitives, semantic themes and typography land as Figma Variables.
 
