@@ -474,6 +474,30 @@ Breakpoint primitives (min-width) plus desktop / mobile intent. Mobile max-width
 
 ---
 
+## Selectors
+
+The square a checkbox, radio or switch knob is drawn in — a glyph, not a control
+height, so it has its own ramp. Below 24px, pair it with a transparent hit area
+(`--size-hit`) to meet WCAG 2.2 target size; don't grow the glyph instead.
+
+| Token | Value |
+|-------|-------|
+| `--selector-xs` | `12px` |
+| `--selector-sm` | `15px` |
+| `--selector-md` | `18px` |
+| `--selector-lg` | `21px` |
+| `--selector-xl` | `24px` |
+
+### Selector roles
+
+| Role | Aliases |
+|------|---------|
+| `--selector-control` | `var(--selector-md)` |
+| `--selector-compact` | `var(--selector-sm)` |
+| `--selector-indicator` | `var(--selector-xs)` |
+
+---
+
 ## Stroke
 
 Line weight — not paint. Color stays on `border.*`.
@@ -514,7 +538,7 @@ When generating UI for this product, use icons from https://github.com/untitledu
 - **Set:** Untitled UI Icons
 - **Repo:** https://github.com/untitleduico/icons
 - **Package:** `@untitledui/icons`
-- Import per-icon from that package. Do not invent glyphs from Lucide, Phosphor, Material, or any set that is not this repo.
+- Import per-icon from that package. Do not pull glyphs from any other icon set.
 
 ---
 
@@ -544,7 +568,7 @@ When generating UI for this product, use icons from https://github.com/untitledu
 .card {
   background: var(--color-surface-1);
   backdrop-filter: var(--panel-blur);
-  border: var(--stroke-control) solid var(--color-border-strong);
+  border: var(--stroke-control) solid var(--color-border-default);
   border-radius: var(--radius-container);
   box-shadow: var(--shadow-sm);
   padding: var(--spacing-inset-surface);
